@@ -1,0 +1,55 @@
+.slick-prev:before,
+.slick-next:before {
+    color: black !important;
+}
+
+
+.icon:hover {
+    transition: transform 0.3s ease-in-out !important;
+    transform: scale(0.9) !important;
+}
+
+/* .accordion .card-header button {
+    border: none;
+} */
+
+.icon2:hover{
+    background-color: rgb(243, 243, 243);
+
+}
+
+
+.accordion-button:not(.collapsed) {
+    background-color: transparent !important;
+    color: inherit !important;
+    box-shadow: none !important;
+    /* font-weight: bold; */
+}
+
+/* .accordion-button1{
+ 
+    font-weight: bolder;
+} */
+
+.accordion-button:focus {
+    box-shadow: none !important;
+    outline: none !important;
+    /* font-weight: bold; */
+}
+
+
+.button1 {
+    background-color: #16ca8c !important;
+}
+
+.btn1 {
+    font-size: 14px !important;
+    padding: 8px 12px !important;
+    box-shadow: rgba(2, 6, 12, 0.04) 0px 2px 12px !important;
+}
+
+.icon2:hover{
+    font-weight: 700 !important;
+    /* background-color: red !important; */
+}
+
