@@ -16,27 +16,27 @@ export const Desserts = () => {
         {
             img: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/mt2aggiscfl3yviatwng",
             HotalName: "Bakery World", Time: "35-40mins", rating: 4.3,
-            DishName: "Bakery, Ice Cream, Snacks, Beverages", link: "/Help",
+            DishName: "Bakery, Ice Cream, Snacks, Beverages", link: "/PureVegMenu",
         },
         {
             img: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/wa8ek94fp9d97ru1tcyn",
             HotalName: "Shriji Namkeen", Time: "35-40mins", rating: 4.3,
-            DishName: "Snacks, Beverages, Desserts", link: "/Help"
+            DishName: "Snacks, Beverages, Desserts", link: "/PureVegMenu"
         },
         {
             img: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/auczcmkdvvxzt2mswvcc",
             HotalName: "Bharat Mewad Ice Cream", Time: "35-40mins", rating: 4.3,
-            DishName: "Ice Cream, Desserts, Beverages", link: "/Help"
+            DishName: "Ice Cream, Desserts, Beverages", link: "/PureVegMenu"
         },
         {
             img: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/76a05b39545d5a2bf80d6a3e3e46544a",
             HotalName: "Chatar Patar Daily Needs", Time: "35-40mins", rating: 4.1,
-            DishName: "Bakery", link: "/Help"
+            DishName: "Bakery", link: "/PureVegMenu"
         },
         {
             img: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2025/1/17/a38d20d7-bbb7-4b67-8bdd-7740e85cd4af_385824.JPG",
             HotalName: "The Belgian Waffle Co.", Time: "35-40mins", rating: 4.3,
-            DishName: "Waffle, Desserts, Ice Cream, Beverages", link: "/Help"
+            DishName: "Waffle, Desserts, Ice Cream, Beverages", link: "/PureVegMenu"
         },
     ];
     return (

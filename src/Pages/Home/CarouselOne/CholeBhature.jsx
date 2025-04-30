@@ -16,22 +16,22 @@ export const CholeBhature = () => {
         {
             img: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/rvxp5xbniat84r6efku2",
             HotalName: "Satkar Restaurant", Time: "35-40mins", rating: 4.3,
-            DishName: "North Indian, South Indian, Indian, Salads, Desserts", link: "/Help",
+            DishName: "North Indian, South Indian, Indian, Salads, Desserts", link: "/PureVegMenu",
         },
         {
             img: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/vkhcohhmqfczycw9vsar",
             HotalName: "Hotel Sai Nath & Sai Restaurant", Time: "35-40mins", rating: 4.3,
-            DishName: "Bakery, Ice Cream, Snacks, Beverages", link: "/Help"
+            DishName: "Bakery, Ice Cream, Snacks, Beverages", link: "/PureVegMenu"
         },
         {
             img: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/2469fa88ee9b0b5d1366ba88f2a7fa7f",
             HotalName: "Indian Coffee House", Time: "35-40mins", rating: 4.1,
-            DishName: "South Indian, Chinese, Fast Food, Beverages", link: "/Help"
+            DishName: "South Indian, Chinese, Fast Food, Beverages", link: "/PureVegMenu"
         },
         {
             img: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/23f2e646af4a747829c649c6d1929e9a",
             HotalName: "The Woods Cafe", Time: "35-40mins", rating: 4.3,
-            DishName: "Chaat, Fast Food, Beverages", link: "/Help"
+            DishName: "Chaat, Fast Food, Beverages", link: "/PureVegMenu"
         },
     ];
     return (

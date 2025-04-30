@@ -16,38 +16,38 @@ export const Chinese = () => {
         {
             img: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/2274f59cb8efcfab1f446b195bcbda3b",
             HotalName: "Shree Naivedyam", Time: "35-40mins", rating: 4.3,
-            DishName: "North Indian, Chinese, South Indian, Pizzas, Beverages", link: "/Help",
+            DishName: "North Indian, Chinese, South Indian, Pizzas, Beverages", link: "/PureVegMenu",
         },
         {
             img: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/FOOD_CATALOG/IMAGES/CMS/2025/1/24/f7e5b4a9-4d2d-4cbb-92f6-da47804e1fdf_abc4a80e-3a32-4cd5-adba-0a54287bc700.jpg",
             HotalName: "Hotel Sai Nath & Sai Restaurant", Time: "35-40mins", rating: 4.3,
-            DishName: "North Indian, South Indian, Chinese...", link: "/Help"
+            DishName: "North Indian, South Indian, Chinese...", link: "/PureVegMenu"
         },
         {
             img: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/kjewacnqbrqebid1y2dg",
             HotalName: "Satkar Restaurant", Time: "35-40mins", rating: 4.3,
-            DishName: "North Indian, South Indian, Indian, Salads, Desserts", link: "/Help"
+            DishName: "North Indian, South Indian, Indian, Salads, Desserts", link: "/PureVegMenu"
         },
         {
             img: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/2bddab27d971172862ebed00ac233b9e",
             HotalName: "New Radhey Shyam Choule Bhature Delhi Wala", Time: "35-40mins", rating: 4.3,
-            DishName: "Snacks, Chinese", link: "/Help"
+            DishName: "Snacks, Chinese", link: "/PureVegMenu"
         },
 
         {
             img: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/FOOD_CATALOG/IMAGES/CMS/2025/1/13/30e7e25f-03ec-4b40-8f1f-3fe557a5af5d_82fb8a29-0866-4bc5-b55a-8001da1405d1.JPG",
             HotalName: "Urban Cafe", Time: "35-40mins", rating: 4.3,
-            DishName: "Snacks, Pizzas, Pastas, Fast Food, Burgers, Cafe", link: "/Help"
+            DishName: "Snacks, Pizzas, Pastas, Fast Food, Burgers, Cafe", link: "/PureVegMenu"
         },
         {
             img: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/4/1/04109fba-1c29-43b5-a800-2446374aa978_864617.jpg",
             HotalName: "Sab Ghar Tak Foods", Time: "35-40mins", rating: 4.3,
-            DishName: "Chinese, Biryani, Indian, Beverages, Tandoor", link: "/Help"
+            DishName: "Chinese, Biryani, Indian, Beverages, Tandoor", link: "/PureVegMenu"
         },
         {
             img: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/4dfbe240cf1a2be01e6f2805c75c4279",
             HotalName: "Healthy Bites", Time: "35-40mins", rating: 4.3,
-            DishName: "Salads", link: "/Help"
+            DishName: "Salads", link: "/PureVegMenu"
         },
     ];
     return (

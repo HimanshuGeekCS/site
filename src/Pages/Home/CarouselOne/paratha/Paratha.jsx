@@ -16,34 +16,34 @@ export const Paratha = () => {
         {
             img: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/FOOD_CATALOG/IMAGES/CMS/2024/6/27/c6dd4cea-08a0-4d1b-9459-b40843a23b87_6a74510e-1b44-4473-9bc7-9cedd1a4dae5.JPG",
             HotalName: "Jai Ganesh Bhojnalaya", Time: "35-40mins", rating: 4.3,
-            DishName: "North Indian, South Indian, Indian, Chinese", link: "/Help",
+            DishName: "North Indian, South Indian, Indian, Chinese", link: "/ParathaMenu",
         },
         {
             img: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/24ef7f30223e10b1746b4f00cae6513e",
             HotalName: "Hotel Sai Nath & Sai Restaurant", Time: "35-40mins", rating: 4.3,
-            DishName: "North Indian, South Indian, Chinese, Beverages, Fast Food, Desserts", link: "/Help"
+            DishName: "North Indian, South Indian, Chinese, Beverages, Fast Food, Desserts", link: "/ParathaMenu"
         },
         {
             img: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/FOOD_CATALOG/IMAGES/CMS/2025/3/15/418108f8-ee01-4111-bb3b-25cc472899a1_01503c40-374d-4694-93d3-ef9165c5174d.jpg",
             HotalName: "Satkar Restaurant", Time: "35-40mins", rating: 4.1,
-            DishName: "North Indian, South Indian, Indian, Salads, Desserts", link: "/Help"
+            DishName: "North Indian, South Indian, Indian, Salads, Desserts", link: "/ParathaMenu"
         },
         {
             img: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/0ccd31818f2e9d59f91bbd77bfb50b76",
             HotalName: "Sarthak Tiffin Center", Time: "35-40mins", rating: 4.3,
-            DishName: "North Indian, Indian", link: "/Help"
+            DishName: "North Indian, Indian", link: "/ParathaMenu"
         },
 
         {
             img: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/b85ed4f300d122ae59fd7c6becea5dd3",
             HotalName: "Dev International", Time: "35-40mins", rating: 4.3,
-            DishName: "North Indian, Chinese, Fast Food, Beverages", link: "/Help"
+            DishName: "North Indian, Chinese, Fast Food, Beverages", link: "/ParathaMenu"
         },
 
         {
             img: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/FOOD_CATALOG/IMAGES/CMS/2024/10/2/252e7519-4beb-4dd4-b100-35239baca592_a8987d90-ccf6-4027-b4ef-e905d618e796.JPG",
             HotalName: "The Fusion Lounge", Time: "35-40mins", rating: 4.3,
-            DishName: "South Indian, Chinese, Beverages, Fast Food, Desserts", link: "/Help"
+            DishName: "South Indian, Chinese, Beverages, Fast Food, Desserts", link: "/ParathaMenu"
         },
     ];
     return (

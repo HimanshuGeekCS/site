@@ -16,28 +16,28 @@ export const Coffee = () => {
         {
             img: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/a7b8813b890e1efaf7f8129f543932cf",
             HotalName: "Indian Coffee House", Time: "35-40mins", rating: 4.3,
-            DishName: "South Indian, Chinese, Fast Food, Beverages", link: "/Help",
+            DishName: "South Indian, Chinese, Fast Food, Beverages", link: "/PureVegMenu",
         },
         {
             img: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/FOOD_CATALOG/IMAGES/CMS/2025/1/20/f00ed8b3-9535-49d5-95bf-50665bd825c2_69316254-d323-44e8-b265-6cf26c22bc99.JPG",
             HotalName: "Hotel Sai Nath & Sai Restaurant", Time: "35-40mins", rating: 4.3,
-            DishName: "North Indian, South Indian, Chinese...", link: "/Help"
+            DishName: "North Indian, South Indian, Chinese...", link: "/PureVegMenu"
         },
         {
             img: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/8/5/241628b3-30b5-4636-8e45-d990ae30b3f5_937097.jpg",
             HotalName: "BABA CHAINES", Time: "35-40mins", rating: 4.1,
-            DishName: "Indian, Juices, Street Food, Pastas, Fast Food, Cafe", link: "/Help"
+            DishName: "Indian, Juices, Street Food, Pastas, Fast Food, Cafe", link: "/PureVegMenu"
         },
         {
             img: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/4/1/04109fba-1c29-43b5-a800-2446374aa978_864617.jpg",
             HotalName: "Sab Ghar Tak Foods", Time: "35-40mins", rating: 4.3,
-            DishName: "Chinese, Biryani, Indian, Beverages...", link: "/Help"
+            DishName: "Chinese, Biryani, Indian, Beverages...", link: "/PureVegMenu"
         },
 
         {
             img: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/fc0d87b8f657644503500caef91a5855",
             HotalName: "Kathi Junction", Time: "35-40mins", rating: 4.3,
-            DishName: "rolls, Burgers, Pizzas, Fast Food", link: "/Help"
+            DishName: "rolls, Burgers, Pizzas, Fast Food", link: "/PureVegMenu"
         },
     ];
     return (

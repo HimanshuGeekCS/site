@@ -16,28 +16,28 @@ export const Khichdi = () => {
         {
             img: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/FOOD_CATALOG/IMAGES/CMS/2024/10/1/e3518f78-12cb-41b6-a79c-036b59386be2_f2aee924-1b64-4580-8a9a-860925fe2802.JPG",
             HotalName: "Dev International", Time: "35-40mins", rating: 4.3,
-            DishName: "North Indian, Chinese, Fast Food, Beverages", link: "/Help",
+            DishName: "North Indian, Chinese, Fast Food, Beverages", link: "/PureVegMenu",
         },
         {
             img: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/FOOD_CATALOG/IMAGES/CMS/2024/10/1/e3518f78-12cb-41b6-a79c-036b59386be2_f2aee924-1b64-4580-8a9a-860925fe2802.JPG",
             HotalName: "Hotel Sai Nath & Sai Restaurant", Time: "35-40mins", rating: 4.3,
-            DishName: "North Indian, South Indian, Chinese...", link: "/Help"
+            DishName: "North Indian, South Indian, Chinese...", link: "/PureVegMenu"
         },
         {
             img: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/FOOD_CATALOG/IMAGES/CMS/2024/4/9/788d4ff6-5d5b-4956-b136-24159b8799b9_308d4115-d37f-4f09-b679-ae583d59641a.JPG",
             HotalName: "Jai Ganesh Bhojnalaya", Time: "35-40mins", rating: 4.1,
-            DishName: "North Indian, South Indian, Indian, Chinese", link: "/Help"
+            DishName: "North Indian, South Indian, Indian, Chinese", link: "/PureVegMenu"
         },
         {
             img: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/FOOD_CATALOG/IMAGES/CMS/2024/3/14/dff34b28-5a3b-4ec2-b757-ff8106a491fc_daa1d2cb-b9f5-4f43-b123-d194d1f6ba4a.png",
             HotalName: "Satkar Restaurant", Time: "35-40mins", rating: 4.3,
-            DishName: "North Indian, South Indian, Indian, Salads, Desserts", link: "/Help"
+            DishName: "North Indian, South Indian, Indian, Salads, Desserts", link: "/PureVegMenu"
         },
 
         {
             img: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/4/1/04109fba-1c29-43b5-a800-2446374aa978_864617.jpg",
             HotalName: "Sab Ghar Tak Foods", Time: "35-40mins", rating: 4.3,
-            DishName: "Chinese, Biryani, Indian, Beverages, Tandoor", link: "/Help"
+            DishName: "Chinese, Biryani, Indian, Beverages, Tandoor", link: "/PureVegMenu"
         },
     ];
     return (

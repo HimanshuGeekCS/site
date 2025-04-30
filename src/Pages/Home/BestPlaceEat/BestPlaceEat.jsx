@@ -13,12 +13,12 @@ import Slider from "react-slick";
 
 export const BestPlaceEat = () => {
     const HomeData = [
-        { text: "Best Restaurants in Bangalore", link: "/Help" }, { text: "Best Restaurants in Pune", link: "/Help" },
-        { text: "Best Restaurants in Mumbai", link: "/Help" }, { text: "Best Restaurants in Delhi", link: "/Help" },
-        { text: "Best Restaurants in Hyderabad", link: "/Help" }, { text: "Best Restaurants in Kolkata", link: "/Help" },
-        { text: "Best Restaurants in Chennai", link: "/Help" }, { text: "Best Restaurants in Ahmedabad", link: "/Help" },
-        { text: "Best Restaurants in Chandigarh", link: "/Help" }, { text: "Best Restaurants in Jaipur", link: "/Help" },
-        { text: "Best Restaurants in Dehradun", link: "/Help" }, { text: "Best Restaurants in Ludhiana", link: "/Help" },
+        { text: "Best Restaurants in Bangalore", link: "/Restaurants" }, { text: "Best Restaurants in Pune", link: "/Restaurants" },
+        { text: "Best Restaurants in Mumbai", link: "/Restaurants" }, { text: "Best Restaurants in Delhi", link: "/Restaurants" },
+        { text: "Best Restaurants in Hyderabad", link: "/Restaurants" }, { text: "Best Restaurants in Kolkata", link: "/Restaurants" },
+        { text: "Best Restaurants in Chennai", link: "/Restaurants" }, { text: "Best Restaurants in Ahmedabad", link: "/Restaurants" },
+        { text: "Best Restaurants in Chandigarh", link: "/Restaurants" }, { text: "Best Restaurants in Jaipur", link: "/Restaurants" },
+        { text: "Best Restaurants in Dehradun", link: "/Restaurants" }, { text: "Best Restaurants in Ludhiana", link: "/Restaurants" },
     ];
 
     return (
@@ -40,11 +40,14 @@ export const BestPlaceEat = () => {
                             HomeData.map((item, index) => {
                                 return (
                                     <>
-                                            <Col lg="4" sm="4" >
+                                        <Col lg="4" sm="4" >
+
+                                            <Nav.Link as={Link} to={item.link} className="text-decoration-none" >
                                                 <div className="p-3 py-4 px-5 rounded-3 icon2" key={index} style={{ border: "1px solid grey", border: "1.5px solid rgba(2, 6, 12, 0.1)" }}>
                                                     <h6> {item.text}</h6>
                                                 </div>
-                                            </Col>
+                                            </Nav.Link>
+                                        </Col>
                                     </>
                                 )
                             })

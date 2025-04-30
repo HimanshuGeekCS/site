@@ -16,28 +16,28 @@ export const GulabJamun = () => {
         {
             img: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/FOOD_CATALOG/IMAGES/CMS/2024/6/28/4b2f4da4-9fc7-42c0-b6d7-8c4a9e727ec2_c55887b7-4919-4a9e-a891-dcccd3de5e4a.JPG",
             HotalName: "The Fusion Lounge", Time: "35-40mins", rating: 4.3,
-            DishName: "South Indian, Chinese, Beverages, Fast Food, Desserts", link: "/Help",
+            DishName: "South Indian, Chinese, Beverages, Fast Food, Desserts", link: "/PureVegMenu",
         },
         {
             img: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/goau6mw5ecbpej7nbsfw",
             HotalName: "Hotel Sai Nath & Sai Restaurant", Time: "35-40mins", rating: 4.3,
-            DishName: "North Indian, South Indian, Chinese...", link: "/Help"
+            DishName: "North Indian, South Indian, Chinese...", link: "/PureVegMenu"
         },
         {
             img: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/FOOD_CATALOG/IMAGES/CMS/2024/4/8/8015440d-3661-420e-b1e0-45d5d4487350_4cb0439f-f71e-49a8-aac0-6016bfb8a528.jpg",
             HotalName: "Dev International", Time: "35-40mins", rating: 4.1,
-            DishName: "North Indian, South Indian, Chinese...", link: "/Help"
+            DishName: "North Indian, South Indian, Chinese...", link: "/PureVegMenu"
         },
         {
             img: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/FOOD_CATALOG/IMAGES/CMS/2024/4/9/370b6b18-8ff2-487a-b2c7-f57f2350168b_7079038a-77fc-41df-b97b-3047f6270d54.JPG",
             HotalName: "Shriji Namkeen", Time: "35-40mins", rating: 4.3,
-            DishName: "Snacks, Beverages, Desserts", link: "/Help"
+            DishName: "Snacks, Beverages, Desserts", link: "/PureVegMenu"
         },
 
         {
             img: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/zibx2nvhjqws0qaph4k3",
             HotalName: "Satkar Restaurant", Time: "35-40mins", rating: 4.3,
-            DishName: "North Indian, South Indian, Indian...", link: "/Help"
+            DishName: "North Indian, South Indian, Indian...", link: "/PureVegMenu"
         },
     ];
     return (

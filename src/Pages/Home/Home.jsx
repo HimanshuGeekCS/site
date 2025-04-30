@@ -1,4 +1,4 @@
-import { BestPlaceEat } from "./BestPlaceEat";
+import { BestPlaceEat } from "./BestPlaceEat/BestPlaceEat";
 import { CarouselOne } from "./CarouselOne/CarouselOne";
 import { CarouselTwo } from "./CarouselTwo";
 import { ResWithOnlineFood } from "./ResWithOnlineFood/ResWithOnlineFood";

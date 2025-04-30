@@ -16,61 +16,61 @@ export const PureVeg = () => {
         {
             img: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/2274f59cb8efcfab1f446b195bcbda3b",
             HotalName: "Shree Naivedyam", Time: "35-40mins", rating: 4.3,
-            DishName: "North Indian, Chinese, South Indian, Pizzas, Beverages", link: "/Help",
+            DishName: "North Indian, Chinese, South Indian, Pizzas, Beverages", link: "/PureVegMenu",
         },
         {
             img: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/6/21/dbe91f1f-b400-4f4b-a78d-c6b99bdc61c5_912754.JPG",
             HotalName: "Urban Cafe", Time: "35-40mins", rating: 4.3,
-            DishName: "Snacks, Pizzas, Pastas, Fast Food, Burgers, Cafe", link: "/Help"
+            DishName: "Snacks, Pizzas, Pastas, Fast Food, Burgers, Cafe", link: "/PureVegMenu"
         },
         {
             img: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/yzgqriufpzmloogcn2vl",
             HotalName: "Jai Ganesh Bhojnalaya", Time: "35-40mins", rating: 4.1,
-            DishName: "North Indian, South Indian, Indian, Chinese", link: "/Help"
+            DishName: "North Indian, South Indian, Indian, Chinese", link: "/PureVegMenu"
         },
         {
             img: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/4dfbe240cf1a2be01e6f2805c75c4279",
             HotalName: "Healthy Bites", Time: "35-40mins", rating: 4.3,
-            DishName: "Salads", link: "/Help"
+            DishName: "Salads", link: "/PureVegMenu"
         },
 
         {
             img: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/2469fa88ee9b0b5d1366ba88f2a7fa7f",
             HotalName: "Indian Coffee House", Time: "35-40mins", rating: 4.3,
-            DishName: "South Indian, Chinese, Fast Food, Beverages", link: "/Help"
+            DishName: "South Indian, Chinese, Fast Food, Beverages", link: "/PureVegMenu"
         },
 
         {
             img: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/rvxp5xbniat84r6efku2",
             HotalName: "Satkar Restaurant", Time: "35-40mins", rating: 4.3,
-            DishName: "North Indian, South Indian, Indian, Salads, Desserts", link: "/Help"
+            DishName: "North Indian, South Indian, Indian, Salads, Desserts", link: "/PureVegMenu"
         },
 
         {
             img: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/vkhcohhmqfczycw9vsar",
             HotalName: "Hotel Sai Nath & Sai Restaurant", Time: "35-40mins", rating: 4.3,
-            DishName: "North Indian, South Indian, Chinese, Beverages, Fast Food, Desserts", link: "/Help"
+            DishName: "North Indian, South Indian, Chinese, Beverages, Fast Food, Desserts", link: "/PureVegMenu"
         },
         {
             img: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/fa4944f0cfdcbca2bec1f3ab8e3db3f7",
             HotalName: "The Fusion Lounge", Time: "35-40mins", rating: 4.0,
-            DishName: "South Indian, Chinese, Beverages, Fast Food, Desserts", link: "/Help"
+            DishName: "South Indian, Chinese, Beverages, Fast Food, Desserts", link: "/PureVegMenu"
         },
 
         {
             img: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/0adf25c57357161b20c11281d8a443e6",
             HotalName: "New Radhey Shyam Choule Bhature Delhi Wala", Time: "35-40mins", rating: 4.2,
-            DishName: "Snacks, Chinese", link: "/Help"
+            DishName: "Snacks, Chinese", link: "/PureVegMenu"
         },
         {
             img: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/8/5/241628b3-30b5-4636-8e45-d990ae30b3f5_937097.jpg",
             HotalName: "BABA CHAINES", Time: "35-40mins", rating: 4.4,
-            DishName: "Indian, Juices, Street Food, Pastas, Fast Food, Cafe", link: "/Help"
+            DishName: "Indian, Juices, Street Food, Pastas, Fast Food, Cafe", link: "/PureVegMenu"
         },
         {
             img: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/mustiqp0hlu10uelyssd",
             HotalName: "Sarthak Tiffin Center", Time: "35-40mins", rating: 4.4,
-            DishName: "North Indian, Indian", link: "/Help"
+            DishName: "North Indian, Indian", link: "/PureVegMenu"
         },
 
     ];

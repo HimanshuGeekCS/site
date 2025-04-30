@@ -16,28 +16,28 @@ export const Biryani = () => {
         {
             img: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/FOOD_CATALOG/IMAGES/CMS/2024/4/9/f7658b36-95e0-4b08-bb51-e89cccd8acc9_638915f5-2704-4df8-8b6e-38232a7f719f.JPG",
             HotalName: "The Fusion Lounge", Time: "35-40mins", rating: 4.3,
-            DishName: "South Indian, Chinese, Beverages, Fast Food, Desserts", link: "/Help",
+            DishName: "South Indian, Chinese, Beverages, Fast Food, Desserts", link: "/PureVegMenu",
         },
         {
             img: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/lln3zxpll8pshaeqrgr9",
             HotalName: "Adil Hotel", Time: "35-40mins", rating: 4.3,
-            DishName: "North Indian, Biryani, Tandoor", link: "/Help"
+            DishName: "North Indian, Biryani, Tandoor", link: "/PureVegMenu"
         },
         {
             img: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/FOOD_CATALOG/IMAGES/CMS/2024/6/27/c31d6067-a3b0-4d8d-acef-c25aeb4dc418_05cf481e-e52c-4645-8899-80783e9f5fcb.JPG",
             HotalName: "Champaran Handi Restaurant", Time: "35-40mins", rating: 4.1,
-            DishName: "North Indian", link: "/Help"
+            DishName: "North Indian", link: "/PureVegMenu"
         },
         {
             img: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/4/1/04109fba-1c29-43b5-a800-2446374aa978_864617.jpg",
             HotalName: "Sab Ghar Tak Foods", Time: "35-40mins", rating: 4.3,
-            DishName: "Chinese, Biryani, Indian, Beverages, Tandoor", link: "/Help"
+            DishName: "Chinese, Biryani, Indian, Beverages, Tandoor", link: "/PureVegMenu"
         },
 
         {
             img: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/FOOD_CATALOG/IMAGES/CMS/2024/4/9/5f74ca6a-2a92-4810-a6a0-ace38aa6cc31_886af383-53f2-4ee0-8393-10ec944f21c7.JPG",
             HotalName: "Dev International", Time: "35-40mins", rating: 4.3,
-            DishName: "North Indian, Chinese, Fast Food, Beverages", link: "/Help"
+            DishName: "North Indian, Chinese, Fast Food, Beverages", link: "/PureVegMenu"
         },
     ];
     return (
