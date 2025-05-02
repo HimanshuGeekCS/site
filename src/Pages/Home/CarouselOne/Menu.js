@@ -1,5 +1,3 @@
-
-
 export const AllParatha = [
     {
         "Name": "Onion paratha with curd",
@@ -177,7 +175,8 @@ export const AllThali = [
     },
 ];
 
-export const SouthIndian = [
+
+export const AllSouthIndian = [
     {
         "Name": "Paper Masala Dosa",
         "Price": 90,
@@ -233,7 +232,7 @@ export const SouthIndian = [
         "quantity": 1,
     },
 ];
-export const Sandwich = [
+export const AllSandwich = [
     {
         "Name": "Veg Sandwich",
         "Price": 90,
@@ -262,7 +261,7 @@ export const Sandwich = [
         "quantity": 1,
     },
 ];
-export const Beverages = [
+export const AllBeverages = [
     {
         "Name": "Tea",
         "Price": 25,
@@ -321,7 +320,7 @@ export const Beverages = [
 
 
 // Paneer Main Course
-export const PaneerMainCourse = [
+export const AllPaneerMainCourse = [
     {
         "Name": "Paneer Hyderabadi",
         "Price": 25,
@@ -416,7 +415,7 @@ export const PaneerMainCourse = [
 
 
 // Lassi
-export const Lassi = [
+export const AllLassi = [
     {
         "Name": "Sweet Lassi",
         "Price": 40,
@@ -439,7 +438,7 @@ export const Lassi = [
 
 
 // Rice 
-export const Rice  = [
+export const AllRice = [
     {
         "Name": "Jeera Rice",
         "Price": 40,
@@ -480,7 +479,7 @@ export const Rice  = [
 
 
 // Roti 
-export const Roti  = [
+export const AllRoti = [
     {
         "Name": "Tawa Roti Plain",
         "Price": 12,

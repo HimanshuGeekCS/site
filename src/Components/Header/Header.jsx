@@ -10,16 +10,15 @@ import { BsPerson } from "react-icons/bs";
 import { CiShoppingCart } from "react-icons/ci";
 import { useEffect, useState } from 'react';
 
+import { CiLogout } from "react-icons/ci";
+import { toast } from 'react-toastify';
+
+
 
 export const Header = () => {
 
     const number = JSON.parse(localStorage.getItem('item'))
-
     const [CartCount, SetCartCount] = useState(number);
-
-
-
-
 
     // useEffect(() => {
     //     const a = CartCount.map((e) => {
@@ -29,19 +28,34 @@ export const Header = () => {
     //         }
     //     })
     //     SetCartCount(a)
-    // }, [])
+    // }, [CartCount])
 
-    // console.log(number)
+
+    const [LogData, SetLogData] = useState("")
+
+    useEffect(() => {
+        const data = JSON.parse(localStorage.getItem('UserInput'));
+        SetLogData(data);
+    }, []);
+
+    const Logout = () => {
+        localStorage.removeItem('UserInput');
+        SetLogData("")
+        // toast("Logged out");
+    };
+
+
+
+
 
     return (
         <>
-            {/* bg-body-tertiary */}
             <Container fluid className='px-0 shadow-sm'>
                 <Container className='px-0 '>
 
                     <Navbar expand="lg" className=' '>
                         <Navbar.Brand as={Link} to="/">
-                            <div className='bg-body-tertiary'>
+                            <div className='bg-body-tertiary logo'>
                                 <img src="Logo.png" alt="" className=' ' style={{ width: "85px" }} />
                             </div>
                         </Navbar.Brand>
@@ -50,20 +64,32 @@ export const Header = () => {
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
 
                         <Navbar.Collapse id="basic-navbar-nav" >
-                            <Nav className="ms-auto  column-gap-5 fw-medium">
+                            <Nav className="ms-auto  fw-medium column-gap-5">
                                 <Nav.Link as={Link} to="/Search" className="text-decoration-none " ><i className='px-2' style={{ fontSize: "22px" }}><FiSearch /></i>Search</Nav.Link>
 
                                 <Nav.Link as={Link} to="/Help" className="text-decoration-none " ><i className='px-2' style={{ fontSize: "22px" }}><IoIosHelpBuoy /></i>Help</Nav.Link>
 
-                                <Nav.Link as={Link} to="/Login" className="text-decoration-none " ><i className='px-2' style={{ fontSize: "22px" }}><BsPerson /></i>Log in</Nav.Link>
+                                {
+                                    LogData ?
+                                        <>
+                                            <Nav.Link as={Link} to="#" className="text-decoration-none" >
+                                                {/* <i className='px-2' style={{ fontSize: "22px" }}><BsPerson /></i> */}
+                                                <span className=' text-danger fw-bold'>  Welcome</span>
+                                                <span className='px-1' onClick={Logout} style={{ fontSize: "22px" }}><CiLogout />
+                                                </span>
+                                            </Nav.Link>
+                                        </> :
+                                        <Nav.Link as={Link} to="/Login" className="text-decoration-none " ><i className='px-2' style={{ fontSize: "22px" }}><BsPerson /></i>Log in</Nav.Link>
+                                }
 
                                 {!CartCount?.length ?
-                                    <Nav.Link as={Link} to="/Cart" className="text-decoration-none " >
-                                        <i className='px-2' style={{ fontSize: "22px" }}>
+                                    <Nav.Link as={Link} to="/Cart" className="text-decoration-none" >
+                                        <span className='px-2' style={{ fontSize: "22px" }}>
                                             <CiShoppingCart style={{ fontSize: "30px" }} />
-                                            <span className=' position-absolute ' style={{ fontSize: "14px", fontStyle: "normal", bottom: "43px", right: "56px", }}>{CartCount?.length}</span>
-                                        </i>
+                                            <span className=' position-absolute ' style={{ fontSize: "14px", fontStyle: "normal", bottom: "43px", right: "56px", }}>{CartCount?.length} </span>
+                                        </span>
                                         Cart
+
                                     </Nav.Link>
                                     :
                                     <Nav.Link as={Link} to="/Cart" className="text-decoration-none " >

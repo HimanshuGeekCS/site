@@ -15,7 +15,9 @@ export const Login = () => {
         SetUserInput((prev) => {
             return ({ ...prev, [e.target.name]: e.target.value })
         })
-    }
+    };
+
+   
 
     const navigate = useNavigate();
 

@@ -3,17 +3,26 @@
     color: black !important;
 }
 
+/* ease-in  - will start the animation slowly, and finish at full speed.
+ease-out  - will start the animation at full speed, then finish slowly.
+ease-in-out  - will start slowly, be fastest at the middle of the animation, then finish slowly.
+ease is like ease-in-out, except it starts slightly faster than it ends. */
 
 .icon:hover {
     transition: transform 0.3s ease-in-out !important;
     transform: scale(0.9) !important;
 }
 
+.logo:hover {
+    transition: transform 0.3s ease-in-out !important;
+    transform: scale(1.1) !important;
+}
+
 /* .accordion .card-header button {
     border: none;
 } */
 
-.icon2:hover{
+.icon2:hover {
     background-color: rgb(243, 243, 243);
 
 }
@@ -48,8 +57,7 @@
     box-shadow: rgba(2, 6, 12, 0.04) 0px 2px 12px !important;
 }
 
-.icon2:hover{
+.icon2:hover {
     font-weight: 700 !important;
     /* background-color: red !important; */
 }
-

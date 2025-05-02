@@ -68,7 +68,7 @@ export const Cart = () => {
     const decreaseQty = (index) => {
         const updatedItems = items.map((item, i) => {
             if (i === index) {
-                return { ...item, quantity: item.quantity-1 };
+                return { ...item, quantity: item.quantity - 1 };
             }
             return item;
         }).filter(item => item.quantity > 0); // Remove items with quantity < 1
@@ -81,7 +81,7 @@ export const Cart = () => {
 
 
 
-    
+
 
     // use this if data in not an Array.. ager data object hoga ye function useko array mei convert kardega.
     // useEffect(() => {
@@ -247,7 +247,9 @@ export const Cart = () => {
                                 <Col lg="6"></Col>
                                 <Col lg="6" className="px-5">
                                     <div className=" text-center" >
-                                        <button className="btn btn-danger w-100">Proceed to checkout</button>
+                                        <Nav.Link as={Link} to="/Login" className="text-decoration-none" >
+                                            <button className="btn btn-danger w-100">Proceed to checkout</button>
+                                        </Nav.Link>
                                     </div>
                                 </Col>
                             </Row>

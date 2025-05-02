@@ -8,7 +8,7 @@ import { Help } from './Pages/Help/Help';
 import { Cart } from './Pages/Cart';
 import { Home } from './Pages/Home/Home';
 import { PureVeg } from './Pages/Home/CarouselOne/pureVeg/PureVeg/';
-import { Paratha } from './Pages/Home/CarouselOne/Paratha/Paratha/';
+import { Paratha } from './Pages/Home/CarouselOne/paratha/Paratha';
 import { Chinese } from './Pages/Home/CarouselOne/Chinese';
 import { Tea } from './Pages/Home/CarouselOne/Tea';
 import { Coffee } from './Pages/Home/CarouselOne/Coffee';
@@ -29,7 +29,7 @@ import { Explogin } from './Pages/loginForm/Explogin';
 import { Login } from './Pages/loginForm/Login';
 import { ParathaMenu } from './Pages/Home/CarouselOne/paratha/ParathaMenu';
 import { PureVegMenu } from './Pages/Home/CarouselOne/pureVeg/PureVegMenu';
-import { Restaurants } from './Pages/Home/BestPlaceEat/Restaurants';
+import { Best_Restaurants_City } from './Pages/Home/BestPlaceEat/Best_Restaurants_City';
 
 
 
@@ -145,8 +145,8 @@ function App() {
           element: <PureVegMenu/>,
         },
         {
-          path: "/Restaurants",
-          element: <Restaurants/>,
+          path: "/Best_Restaurants_City",
+          element: <Best_Restaurants_City/>,
         },
 
       ]
