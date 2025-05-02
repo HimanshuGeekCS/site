@@ -4,21 +4,15 @@ import Col from "react-bootstrap/esm/Col";
 import { useState } from "react";
 import { AllHomeData } from "../HotalName";
 
-
-import { FiSearch } from "react-icons/fi";
-import { NavLink } from "react-router";
-import { AdilHotel } from "./Home/ResWithOnlineFood/Adil Hotel/AdilHotel";
-
 import Nav from 'react-bootstrap/Nav';
 import { Link } from "react-router";
-import { AllParatha } from "./Home/CarouselOne/Menu";
+// import { AllParatha } from "./Home/CarouselOne/Menu";
 
 export const Search = () => {
     const [search, setSearch] = useState("");
 
     function filteredTasks() {
         // Filter tasks based on search input
-
         // The includes() method returns true if a string contains a specified string.Otherwise it returns false.
 
         // return HomeData.filter((e) => (e?.HotalName?.toLowerCase()?.includes(search)));

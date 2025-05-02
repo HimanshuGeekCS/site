@@ -11,21 +11,24 @@ import Accordion from 'react-bootstrap/Accordion';
 import { LuPlus } from "react-icons/lu";
 import { FaMinus } from "react-icons/fa6";
 
-import { AllPureVeg } from "../Menu";
-import { ThaliSouthIndian } from "./Thali&SouthIndian";
-import { Sandwich_Beverages } from "./Sandwich_Beverages";
-import { Paneer_Lussi } from "./Paneer_Lussi";
-import { Rice_Roti } from "./Rice_Roti";
+import { item } from "../Menu";
+import { GroupedData } from "./groupby";
+// import { ThaliSouthIndian } from "./Thali&SouthIndian";
+// import { Sandwich_Beverages } from "./Sandwich_Beverages";
+// import { Paneer_Lussi } from "./Paneer_Lussi";
+// import { Rice_Roti } from "./Rice_Roti";
 
 
 export const PureVegMenu = () => {
-    const [Recommended, SetRecommended] = useState(AllPureVeg)
+
+    const [Recommended, SetRecommended] = useState(item)
 
 
     // when button is click it get data form localStorage and store in state.
     const existData = JSON.parse(localStorage.getItem('item')) || [];
     const [cartdata, setCartdata] = useState(existData)
 
+    console.log(cartdata, 'cartdata');
 
     const Click = (item) => {
         // const exist = JSON.parse(localStorage.getItem('item')) || [];
@@ -72,7 +75,14 @@ export const PureVegMenu = () => {
         localStorage.setItem('item', JSON.stringify(updatedItems));
     };
 
-
+    const groupedData = item.reduce((accumulator, currentItem) => {
+        const key = currentItem.Type; // Replace propertyName with the actual property to group by
+        if (!accumulator[key]) {
+            accumulator[key] = [];
+        }
+        accumulator[key].push(currentItem);
+        return accumulator;
+    }, {});
 
     return (
         <>
@@ -81,9 +91,6 @@ export const PureVegMenu = () => {
                     <Row className="py-5 px-4 justify-content-center">
                         <Col lg="10">
                             <div>
-                                {/* <div>
-                                    <h2 style={{ fontSize: "21px", fontWeight: "bold" }}>Adil Hotel</h2>
-                                </div> */}
                                 <div className=" text-center">
                                     <h2 style={{ fontSize: "21px", fontWeight: "bold" }}>MENU</h2>
                                 </div>
@@ -91,80 +98,176 @@ export const PureVegMenu = () => {
                         </Col>
                     </Row>
 
-                    <Row className=" justify-content-center">
-                        <Col lg="10" >
-                            <Accordion className=" accordion-flush" defaultActiveKey="0"  >
-                                <Accordion.Item eventKey="0">
-                                    <Accordion.Header className=" accordion-flush ">
-                                        <p className=" fw-bolder"> Recommended (10)</p></Accordion.Header>
-                                    <Accordion.Body>
-                                        {Recommended.map((item, index) => {
-                                            return (
-                                                <>
-                                                    <div key={index} className=" d-flex justify-content-between column-gap-5">
-                                                        <div>
-                                                            <div>
-                                                                <h6>{item.Name}</h6>
-                                                                <h6>{item.Price}</h6>
+                    {Object.keys(groupedData).map(key => (
+
+                        <Row className=" justify-content-center">
+                            <Col lg="10" >
+                                <Accordion className=" accordion-flush" defaultActiveKey="0"  >
+                                    <Accordion.Item eventKey="0">
+                                        <Accordion.Header className=" accordion-flush ">
+                                            <p className=" fw-bolder"> {key}</p></Accordion.Header>
+                                        <Accordion.Body>
+                                            {
+                                                groupedData[key].filter((item, index) => {
+                                                    if (item.Type === item.Type) {
+                                                        return item;
+
+                                                    }
+                                                }).map((item, index) => {
+                                                    return (
+                                                        <>
+                                                            <div key={index} className=" d-flex justify-content-between column-gap-5">
+                                                                <div>
+                                                                    <div>
+                                                                        <h6>{item.Name}</h6>
+                                                                        <h6>{item.Price}</h6>
+                                                                    </div>
+                                                                    <div className=" d-flex align-items-center column-gap-1" >
+                                                                        <FaStar style={{ color: "green" }} />
+                                                                        {item.Rating}
+                                                                    </div>
+                                                                    <p>{item.Text}</p>
+                                                                </div>
+                                                                <div className="text-center d-flex justify-content-center align-items-end">
+                                                                    <img src={item.img} alt="" style={{ width: "156px", height: "144px", objectFit: "cover", borderRadius: "12px" }} />
+
+                                                                    <div className=" position-absolute ">
+                                                                        {
+                                                                            !cartdata?.some((i) => i.Name === item.Name) ?
+                                                                                <button className="btn  btn-light  border-secondary text-success fw-bold shadow-lg" style={{ width: "7rem" }} onClick={() => Click(item)} >
+                                                                                    Add
+                                                                                </button> :
+                                                                                <div className="bg-light rounded border-secondary text-success fw-bold shadow-lg d-flex justify-content-center align-items-center  column-gap-2">
+                                                                                    <div className="btn btn-light " onClick={() => increaseQty(item)}>
+                                                                                        <LuPlus />
+                                                                                    </div>
+
+                                                                                    <div className="">
+                                                                                        {
+                                                                                            cartdata.find((e) => {
+                                                                                                if (e.Name === item.Name) {
+                                                                                                    return e;
+                                                                                                }
+                                                                                            }).quantity
+                                                                                        }
+                                                                                    </div>
+
+                                                                                    <div className="btn btn-light " onClick={() => decreaseQty(item)} >
+                                                                                        <FaMinus />
+                                                                                    </div>
+
+                                                                                </div>
+                                                                        }
+                                                                    </div>
+                                                                </div>
                                                             </div>
-                                                            <div className=" d-flex align-items-center column-gap-1" >
-                                                                <FaStar style={{ color: "green" }} />
-                                                                {item.Rating}
+
+                                                            <div className="py-2">
+                                                                <hr style={{ border: "1px solid gray" }} />
                                                             </div>
-                                                            <p>{item.Text}</p>
-                                                        </div>
-                                                        <div className="text-center d-flex justify-content-center align-items-end">
-                                                            <img src={item.img} alt="" style={{ width: "156px", height: "144px", objectFit: "cover", borderRadius: "12px" }} />
+                                                        </>
+                                                    )
+                                                })
+                                            }
+                                        </Accordion.Body>
+                                    </Accordion.Item>
+                                </Accordion>
 
-                                                            <div className=" position-absolute ">
-                                                                {
-                                                                    !cartdata?.some((i) => i.Name === item.Name) ?
-                                                                        <button className="btn  btn-light  border-secondary text-success fw-bold shadow-lg" style={{ width: "7rem" }} onClick={() => Click(item)} >
-                                                                            Add
-                                                                        </button> :
-                                                                        <div className="bg-light rounded border-secondary text-success fw-bold shadow-lg d-flex justify-content-center align-items-center  column-gap-2">
-                                                                            <div className="btn btn-light " onClick={() => increaseQty(item)}>
-                                                                                <LuPlus />
-                                                                            </div>
+                                <div className="">
+                                    <hr style={{ border: "1px solid gray", height: "16px", backgroundColor: "#c6c3c3" }} />
+                                </div>
+                            </Col>
+                        </Row>
 
-                                                                            <div className="">{item.quantity}</div>
+                    ))}
 
-                                                                            <div className="">{item.Quantity}</div>
-                                                                            <div className="btn btn-light " onClick={() => decreaseQty(item)} >
-                                                                                <FaMinus />
-                                                                            </div>
 
-                                                                        </div>
-                                                                }
-                                                            </div>
-                                                        </div>
-                                                    </div>
+                    <GroupedData />
 
-                                                    <div className="py-2">
-                                                        <hr style={{ border: "1px solid gray" }} />
-                                                    </div>
-                                                </>
-                                            )
-                                        })}
-                                    </Accordion.Body>
-                                </Accordion.Item>
-                            </Accordion>
-
-                            <ThaliSouthIndian />
-
-                            <Sandwich_Beverages />
-
-                            <Paneer_Lussi />
-
-                            <Rice_Roti />
-
-                            <div className="">
-                                <hr style={{ border: "1px solid gray", height: "16px", backgroundColor: "#c6c3c3" }} />
-                            </div>
-                        </Col>
-                    </Row>
                 </Container>
             </Container >
         </>
     );
 };
+
+
+
+
+
+
+
+
+
+
+// <Row className=" justify-content-center">
+//     <Col lg="10" >
+//         <Accordion className=" accordion-flush" defaultActiveKey="0"  >
+//             <Accordion.Item eventKey="0">
+//                 <Accordion.Header className=" accordion-flush ">
+//                     <p className=" fw-bolder"> Recommended (10)</p></Accordion.Header>
+//                 <Accordion.Body>
+//                     {Recommended.map((item, index) => {
+//                         return (
+//                             <>
+//                                 <div key={index} className=" d-flex justify-content-between column-gap-5">
+//                                     <div>
+//                                         <div>
+//                                             <h6>{item.Name}</h6>
+//                                             <h6>{item.Price}</h6>
+//                                         </div>
+//                                         <div className=" d-flex align-items-center column-gap-1" >
+//                                             <FaStar style={{ color: "green" }} />
+//                                             {item.Rating}
+//                                         </div>
+//                                         <p>{item.Text}</p>
+//                                     </div>
+//                                     <div className="text-center d-flex justify-content-center align-items-end">
+//                                         <img src={item.img} alt="" style={{ width: "156px", height: "144px", objectFit: "cover", borderRadius: "12px" }} />
+
+//                                         <div className=" position-absolute ">
+//                                             {
+//                                                 !cartdata?.some((i) => i.Name === item.Name) ?
+//                                                     <button className="btn  btn-light  border-secondary text-success fw-bold shadow-lg" style={{ width: "7rem" }} onClick={() => Click(item)} >
+//                                                         Add
+//                                                     </button> :
+//                                                     <div className="bg-light rounded border-secondary text-success fw-bold shadow-lg d-flex justify-content-center align-items-center  column-gap-2">
+//                                                         <div className="btn btn-light " onClick={() => increaseQty(item)}>
+//                                                             <LuPlus />
+//                                                         </div>
+
+//                                                         <div className="">{item.quantity}</div>
+
+//                                                         <div className="">{item.Quantity}</div>
+//                                                         <div className="btn btn-light " onClick={() => decreaseQty(item)} >
+//                                                             <FaMinus />
+//                                                         </div>
+
+//                                                     </div>
+//                                             }
+//                                         </div>
+//                                     </div>
+//                                 </div>
+
+//                                 <div className="py-2">
+//                                     <hr style={{ border: "1px solid gray" }} />
+//                                 </div>
+//                             </>
+//                         )
+//                     })}
+//                 </Accordion.Body>
+//             </Accordion.Item>
+//         </Accordion>
+
+//         <ThaliSouthIndian />
+
+//         <Sandwich_Beverages />
+
+//         <Paneer_Lussi />
+
+//         <Rice_Roti />
+
+//         <div className="">
+//             <hr style={{ border: "1px solid gray", height: "16px", backgroundColor: "#c6c3c3" }} />
+//         </div>
+//     </Col>
+// </Row>

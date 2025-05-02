@@ -1,5 +1,6 @@
 export const AllParatha = [
     {
+        "Type": "AllParatha",
         "Name": "Onion paratha with curd",
         "Price": 100,
         "Rating": 3.4,
@@ -8,6 +9,7 @@ export const AllParatha = [
         "quantity": 1,
     },
     {
+        "Type": "AllParatha",
         "Name": "Gobhi paratha with curd",
         "Price": 100,
         "Rating": 3.4,
@@ -16,6 +18,7 @@ export const AllParatha = [
         "quantity": 1,
     },
     {
+        "Type": "AllParatha",
         "Name": "Paneer paratha with curd",
         "Price": 130,
         "Rating": 3.4,
@@ -24,6 +27,7 @@ export const AllParatha = [
         "quantity": 1,
     },
     {
+        "Type": "AllParatha",
         "Name": "Aalo Paratha with curd",
         "Price": 80,
         "Rating": 3.4,
@@ -32,6 +36,7 @@ export const AllParatha = [
         "quantity": 1,
     },
     {
+        "Type": "AllParatha",
         "Name": "Pyaz Paratha with curd",
         "Price": 80,
         "Rating": 3.4,
@@ -42,9 +47,11 @@ export const AllParatha = [
 ];
 
 
-// PureVeg
-export const AllPureVeg = [
+
+export const item = [
+    // item of PureVeg
     {
+        "Type": "Recommended (10)",
         "Name": "Fixed Thali",
         "Price": 180,
         "Rating": 4.4,
@@ -54,6 +61,7 @@ export const AllPureVeg = [
         "quantity": 1,
     },
     {
+        "Type": "Recommended (10)",
         "Name": "Special Dal Khichdi",
         "Price": 250,
         "Rating": 3.4,
@@ -63,6 +71,7 @@ export const AllPureVeg = [
         "quantity": 1,
     },
     {
+        "Type": "Recommended (10)",
         "Name": "Special Thali",
         "Price": 250,
         "Rating": 3.4,
@@ -72,6 +81,7 @@ export const AllPureVeg = [
         "quantity": 1,
     },
     {
+        "Type": "Recommended (10)",
         "Name": "Paper Masala Dosa",
         "Price": 90,
         "Rating": 3.4,
@@ -81,6 +91,7 @@ export const AllPureVeg = [
         "quantity": 1,
     },
     {
+        "Type": "Recommended (10)",
         "Name": "Cutting Dosa",
         "Price": 250,
         "Rating": 3.4,
@@ -90,6 +101,7 @@ export const AllPureVeg = [
         "quantity": 1,
     },
     {
+        "Type": "Recommended (10)",
         "Name": "Chesse Dosa",
         "Price": 250,
         "Rating": 3.4,
@@ -99,6 +111,7 @@ export const AllPureVeg = [
         "quantity": 1,
     },
     {
+        "Type": "Recommended (10)",
         "Name": "Masala Dosa",
         "Price": 250,
         "Rating": 3.4,
@@ -108,6 +121,7 @@ export const AllPureVeg = [
         "quantity": 1,
     },
     {
+        "Type": "Recommended (10)",
         "Name": "Veg Sandwich",
         "Price": 250,
         "Rating": 3.4,
@@ -117,6 +131,7 @@ export const AllPureVeg = [
         "quantity": 1,
     },
     {
+        "Type": "Recommended (10)",
         "Name": "Handi Paneer",
         "Price": 250,
         "Rating": 3.4,
@@ -126,6 +141,7 @@ export const AllPureVeg = [
         "quantity": 1,
     },
     {
+        "Type": "Recommended (10)",
         "Name": "Butter Chicken",
         "Price": 250,
         "Rating": 3.4,
@@ -134,10 +150,10 @@ export const AllPureVeg = [
         "link": "/Help",
         "quantity": 1,
     },
-];
 
-export const AllThali = [
+    // items of AllThali
     {
+        "Type": "Thali (4)",
         "Name": "Fixed Thali",
         "Price": 180,
         "Rating": 4.4,
@@ -147,6 +163,7 @@ export const AllThali = [
         "quantity": 1,
     },
     {
+        "Type": "Thali (4)",
         "Name": "Special Dal Khichdi",
         "Price": 250,
         "Rating": 3.4,
@@ -156,6 +173,7 @@ export const AllThali = [
         "quantity": 1,
     },
     {
+        "Type": "Thali (4)",
         "Name": "Special Thali",
         "Price": 250,
         "Rating": 3.4,
@@ -165,6 +183,7 @@ export const AllThali = [
         "quantity": 1,
     },
     {
+        "Type": "Thali (4)",
         "Name": "Delux Thali",
         "Price": 300,
         "Rating": 3.4,
@@ -173,11 +192,10 @@ export const AllThali = [
         "link": "/Help",
         "quantity": 1,
     },
-];
 
-
-export const AllSouthIndian = [
+    // items of AllSouthIndian
     {
+        "Type": "South Indian (6)",
         "Name": "Paper Masala Dosa",
         "Price": 90,
         "Rating": 3.4,
@@ -187,6 +205,7 @@ export const AllSouthIndian = [
         "quantity": 1,
     },
     {
+        "Type": "South Indian (6)",
         "Name": "Cutting Dosa",
         "Price": 250,
         "Rating": 3.4,
@@ -196,6 +215,7 @@ export const AllSouthIndian = [
         "quantity": 1,
     },
     {
+        "Type": "South Indian (6)",
         "Name": "Chesse Dosa",
         "Price": 250,
         "Rating": 3.4,
@@ -205,6 +225,7 @@ export const AllSouthIndian = [
         "quantity": 1,
     },
     {
+        "Type": "South Indian (6)",
         "Name": "Masala Dosa",
         "Price": 250,
         "Rating": 3.4,
@@ -214,6 +235,7 @@ export const AllSouthIndian = [
         "quantity": 1,
     },
     {
+        "Type": "South Indian (6)",
         "Name": "Mysore Dosa",
         "Price": 250,
         "Rating": 3.4,
@@ -223,6 +245,7 @@ export const AllSouthIndian = [
         "quantity": 1,
     },
     {
+        "Type": "South Indian (6)",
         "Name": "Plain Dosa Butter",
         "Price": 250,
         "Rating": 3.4,
@@ -231,9 +254,10 @@ export const AllSouthIndian = [
         "link": "/Help",
         "quantity": 1,
     },
-];
-export const AllSandwich = [
+
+    // items of AllSandwich
     {
+        "Type": "Sandwich (3)",
         "Name": "Veg Sandwich",
         "Price": 90,
         "Rating": 3.4,
@@ -243,6 +267,7 @@ export const AllSandwich = [
         "quantity": 1,
     },
     {
+        "Type": "Sandwich (3)",
         "Name": "Cheese Sandwich",
         "Price": 250,
         "Rating": 3.4,
@@ -252,6 +277,7 @@ export const AllSandwich = [
         "quantity": 1,
     },
     {
+        "Type": "Sandwich (3)",
         "Name": "Chesse Grill Sandwich",
         "Price": 250,
         "Rating": 3.4,
@@ -260,9 +286,10 @@ export const AllSandwich = [
         "link": "/Help",
         "quantity": 1,
     },
-];
-export const AllBeverages = [
+
+    // item of hot nad cold 
     {
+        "Type": "Hot and Cold Beverages (6)",
         "Name": "Tea",
         "Price": 25,
         "Rating": 3.4,
@@ -272,6 +299,7 @@ export const AllBeverages = [
         "quantity": 1,
     },
     {
+        "Type": "Hot and Cold Beverages (6)",
         "Name": "Coffee",
         "Price": 250,
         "Rating": 3.4,
@@ -281,6 +309,7 @@ export const AllBeverages = [
         "quantity": 1,
     },
     {
+        "Type": "Hot and Cold Beverages (6)",
         "Name": "Masala Tea",
         "Price": 250,
         "Rating": 3.4,
@@ -290,6 +319,7 @@ export const AllBeverages = [
         "quantity": 1,
     },
     {
+        "Type": "Hot and Cold Beverages (6)",
         "Name": "Jaljeera",
         "Price": 250,
         "Rating": 3.4,
@@ -299,6 +329,7 @@ export const AllBeverages = [
         "quantity": 1,
     },
     {
+        "Type": "Hot and Cold Beverages (6)",
         "Name": "Buttermilk",
         "Price": 250,
         "Rating": 3.4,
@@ -308,6 +339,7 @@ export const AllBeverages = [
         "quantity": 1,
     },
     {
+        "Type": "Hot and Cold Beverages (6)",
         "Name": "Cold Coffee With Icecream",
         "Price": 250,
         "Rating": 3.4,
@@ -316,12 +348,10 @@ export const AllBeverages = [
         "link": "/Help",
         "quantity": 1,
     },
-];
 
-
-// Paneer Main Course
-export const AllPaneerMainCourse = [
+    // item of AllPaneerMainCourse
     {
+        "Type": "Paneer Main Course (10)",
         "Name": "Paneer Hyderabadi",
         "Price": 25,
         "Rating": 3.4,
@@ -331,6 +361,7 @@ export const AllPaneerMainCourse = [
         "quantity": 1,
     },
     {
+        "Type": "Paneer Main Course (10)",
         "Name": "Paneer Pasanda",
         "Price": 250,
         "Rating": 3.4,
@@ -340,6 +371,7 @@ export const AllPaneerMainCourse = [
         "quantity": 1,
     },
     {
+        "Type": "Paneer Main Course (10)",
         "Name": "Paneer Kolapuri",
         "Price": 250,
         "Rating": 3.4,
@@ -349,6 +381,7 @@ export const AllPaneerMainCourse = [
         "quantity": 1,
     },
     {
+        "Type": "Paneer Main Course (10)",
         "Name": "Paneer Kadhai",
         "Price": 250,
         "Rating": 3.4,
@@ -358,6 +391,7 @@ export const AllPaneerMainCourse = [
         "quantity": 1,
     },
     {
+        "Type": "Paneer Main Course (10)",
         "Name": "Mutter Paneer Mushroom",
         "Price": 250,
         "Rating": 3.4,
@@ -367,6 +401,7 @@ export const AllPaneerMainCourse = [
         "quantity": 1,
     },
     {
+        "Type": "Paneer Main Course (10)",
         "Name": "Paneer Butter Masala",
         "Price": 250,
         "Rating": 3.4,
@@ -376,6 +411,7 @@ export const AllPaneerMainCourse = [
         "quantity": 1,
     },
     {
+        "Type": "Paneer Main Course (10)",
         "Name": "Paneer Masala",
         "Price": 250,
         "Rating": 3.4,
@@ -385,6 +421,7 @@ export const AllPaneerMainCourse = [
         "quantity": 1,
     },
     {
+        "Type": "Paneer Main Course (10)",
         "Name": "Shahi Paneer",
         "Price": 250,
         "Rating": 3.4,
@@ -394,6 +431,7 @@ export const AllPaneerMainCourse = [
         "quantity": 1,
     },
     {
+        "Type": "Paneer Main Course (10)",
         "Name": "Paneer Kaju Kari",
         "Price": 250,
         "Rating": 3.4,
@@ -403,6 +441,7 @@ export const AllPaneerMainCourse = [
         "quantity": 1,
     },
     {
+        "Type": "Paneer Main Course (10)",
         "Name": "Mutter Paneer",
         "Price": 250,
         "Rating": 3.4,
@@ -411,12 +450,10 @@ export const AllPaneerMainCourse = [
         "link": "/Help",
         "quantity": 1,
     },
-];
 
-
-// Lassi
-export const AllLassi = [
+    // item of AllLassi 
     {
+        "Type": "Lassi (2)",
         "Name": "Sweet Lassi",
         "Price": 40,
         "Rating": 3.4,
@@ -426,6 +463,7 @@ export const AllLassi = [
         "quantity": 1,
     },
     {
+        "Type": "Lassi (2)",
         "Name": "Special Icecream Lassi",
         "Price": 80,
         "Rating": 3.4,
@@ -434,12 +472,10 @@ export const AllLassi = [
         "link": "/Help",
         "quantity": 1,
     },
-];
 
-
-// Rice 
-export const AllRice = [
+    // item of AllRice 
     {
+        "Type": "Rice (4)",
         "Name": "Jeera Rice",
         "Price": 40,
         "Rating": 3.4,
@@ -449,6 +485,7 @@ export const AllRice = [
         "quantity": 1,
     },
     {
+        "Type": "Rice (4)",
         "Name": "Veg Pulao",
         "Price": 80,
         "Rating": 3.4,
@@ -458,6 +495,7 @@ export const AllRice = [
         "quantity": 1,
     },
     {
+        "Type": "Rice (4)",
         "Name": "Steam Rice",
         "Price": 80,
         "Rating": 3.4,
@@ -467,6 +505,7 @@ export const AllRice = [
         "quantity": 1,
     },
     {
+        "Type": "Rice (4)",
         "Name": "Curd Rice",
         "Price": 80,
         "Rating": 3.4,
@@ -475,12 +514,10 @@ export const AllRice = [
         "link": "/Help",
         "quantity": 1,
     },
-];
 
-
-// Roti 
-export const AllRoti = [
+    // item of AllRoti 
     {
+        "Type": "Roti (2)",
         "Name": "Tawa Roti Plain",
         "Price": 12,
         "Rating": 3.4,
@@ -490,6 +527,7 @@ export const AllRoti = [
         "quantity": 1,
     },
     {
+        "Type": "Roti (2)",
         "Name": "Tawa Butter Roti",
         "Price": 80,
         "Rating": 3.4,
@@ -499,3 +537,586 @@ export const AllRoti = [
         "quantity": 1,
     },
 ];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// export const AllParatha = [
+//     {
+//         "Type": "AllParatha",
+//         "Name": "Onion paratha with curd",
+//         "Price": 100,
+//         "Rating": 3.4,
+//         "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_112,h_112,c_fill/u42hphveygmhpdnhlk0s",
+//         "link": "/ParathaMenu",
+//         "quantity": 1,
+//     },
+//     {
+//         "Type": "AllParatha",
+//         "Name": "Gobhi paratha with curd",
+//         "Price": 100,
+//         "Rating": 3.4,
+//         "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_112,h_112,c_fill/pe8nhrseavtl5fjfcyye",
+//         "link": "/ParathaMenu",
+//         "quantity": 1,
+//     },
+//     {
+//         "Type": "AllParatha",
+//         "Name": "Paneer paratha with curd",
+//         "Price": 130,
+//         "Rating": 3.4,
+//         "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_112,h_112,c_fill/ebrsy3jo9pb8mizgmius",
+//         "link": "/ParathaMenu",
+//         "quantity": 1,
+//     },
+//     {
+//         "Type": "AllParatha",
+//         "Name": "Aalo Paratha with curd",
+//         "Price": 80,
+//         "Rating": 3.4,
+//         "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_112,h_112,c_fill/Autosuggest/Top%20200%20queries/Paratha.png",
+//         "link": "/ParathaMenu",
+//         "quantity": 1,
+//     },
+//     {
+//         "Type": "AllParatha",
+//         "Name": "Pyaz Paratha with curd",
+//         "Price": 80,
+//         "Rating": 3.4,
+//         "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_112,h_112,c_fill/zc3tctytkk6bafqk4yxb",
+//         "link": "/ParathaMenu",
+//         "quantity": 1,
+//     },
+// ];
+
+
+// // item of PureVeg
+// export const AllPureVeg = [
+//     {
+//         "Type": "AllPureVeg",
+//         "Name": "Fixed Thali",
+//         "Price": 180,
+//         "Rating": 4.4,
+//         "Text": "1 paneer sabji, 1 veg sabji, 1 dal fry, 1 raita, 1 plain rice, 5 tawa roti, 1 papad, 1 gulab jamun, salad",
+//         "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/xspxjj3bwz66gc3ual7o",
+//         "link": "/Help",
+//         "quantity": 1,
+//     },
+//     {
+//         "Type": "AllPureVeg",
+//         "Name": "Special Dal Khichdi",
+//         "Price": 250,
+//         "Rating": 3.4,
+//         "Text": "Butter dal khichdi , kachumber salad , 1 papad",
+//         "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/0444a09ec4e85f6651c4e5e7f4857f81",
+//         "link": "/Help",
+//         "quantity": 1,
+//     },
+//     {
+//         "Type": "AllPureVeg",
+//         "Name": "Special Thali",
+//         "Price": 250,
+//         "Rating": 3.4,
+//         "Text": "1 veg sabji, 2 paneer sabji, 5 tawa roti butter, 1 raita, 1 dal, 1 jeera rice, 1gulabjamun, 1 papad, salad",
+//         "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/wtoj1ug1dgdumrgkukij",
+//         "link": "/Help",
+//         "quantity": 1,
+//     },
+//     {
+//         "Type": "AllPureVeg",
+//         "Name": "Paper Masala Dosa",
+//         "Price": 90,
+//         "Rating": 3.4,
+//         "Text": "A flavorful and authentic South Indian delight filled with aromatic spices and served with traditional condiments.",
+//         "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/pggdjuwidtipb2pxbhxd",
+//         "link": "/Help",
+//         "quantity": 1,
+//     },
+//     {
+//         "Type": "AllPureVeg",
+//         "Name": "Cutting Dosa",
+//         "Price": 250,
+//         "Rating": 3.4,
+//         "Text": "A flavorful and crispy South Indian specialty, perfect for those looking for a savory breakfast or snack option.",
+//         "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/61f881a857e79d42f640e775166fcabc",
+//         "link": "/Help",
+//         "quantity": 1,
+//     },
+//     {
+//         "Type": "AllPureVeg",
+//         "Name": "Chesse Dosa",
+//         "Price": 250,
+//         "Rating": 3.4,
+//         "Text": "A delightful, flavorful South Indian delicacy that will satisfy your craving for a cheesy, veggie-filled treat.",
+//         "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/719f10bccb9f292a20954d483812e996",
+//         "link": "/Help",
+//         "quantity": 1,
+//     },
+//     {
+//         "Type": "AllPureVeg",
+//         "Name": "Masala Dosa",
+//         "Price": 250,
+//         "Rating": 3.4,
+//         "Text": "A flavorful and aromatic South Indian delight with a crispy exterior wrapping a delectable filling.",
+//         "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/f36d3e4fce447533d99fa46c6474c098",
+//         "link": "/Help",
+//         "quantity": 1,
+//     },
+//     {
+//         "Type": "AllPureVeg",
+//         "Name": "Veg Sandwich",
+//         "Price": 250,
+//         "Rating": 3.4,
+//         "Text": "A delectable vegetarian delight nestled between two slices of bread, perfect for a quick, satisfying meal.",
+//         "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/kg41taveqaaj53lxjydx",
+//         "link": "/Help",
+//         "quantity": 1,
+//     },
+//     {
+//         "Type": "AllPureVeg",
+//         "Name": "Handi Paneer",
+//         "Price": 250,
+//         "Rating": 3.4,
+//         "Text": "A delectable and indulgent paneer main course cooked to perfection in a traditional handi pot.",
+//         "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/wfeam0y9bzqmonvn4ihr",
+//         "link": "/Help",
+//         "quantity": 1,
+//     },
+//     {
+//         "Type": "AllPureVeg",
+//         "Name": "Butter Chicken",
+//         "Price": 250,
+//         "Rating": 3.4,
+//         "Text": "Butter chicken is a popular Indian dish made with chicken, spices, tomatoes & cream.",
+//         "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/oghuawtlzw4rz1rtx1pc",
+//         "link": "/Help",
+//         "quantity": 1,
+//     },
+// ];
+
+// export const AllThali = [
+//     {
+//         "Type": "AllThali",
+//         "Name": "Fixed Thali",
+//         "Price": 180,
+//         "Rating": 4.4,
+//         "Text": "1 paneer sabji, 1 veg sabji, 1 dal fry, 1 raita, 1 plain rice, 5 tawa roti, 1 papad, 1 gulab jamun, salad",
+//         "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/xspxjj3bwz66gc3ual7o",
+//         "link": "/Help",
+//         "quantity": 1,
+//     },
+//     {
+//         "Type": "AllThali",
+//         "Name": "Special Dal Khichdi",
+//         "Price": 250,
+//         "Rating": 3.4,
+//         "Text": "Butter dal khichdi , kachumber salad , 1 papad",
+//         "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/0444a09ec4e85f6651c4e5e7f4857f81",
+//         "link": "/Help",
+//         "quantity": 1,
+//     },
+//     {
+//         "Type": "AllThali",
+//         "Name": "Special Thali",
+//         "Price": 250,
+//         "Rating": 3.4,
+//         "Text": "1 veg sabji, 2 paneer sabji, 5 tawa roti butter, 1 raita, 1 dal, 1 jeera rice, 1gulabjamun, 1 papad, salad",
+//         "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/wtoj1ug1dgdumrgkukij",
+//         "link": "/Help",
+//         "quantity": 1,
+//     },
+//     {
+//         "Type": "AllThali",
+//         "Name": "Delux Thali",
+//         "Price": 300,
+//         "Rating": 3.4,
+//         "Text": "2 paneer sabji, 2 veg sabji, 4 tawa paratha, 1 dal , 1 veg pulao , 1 butter milk , 1 gulabjamun , 1 papad , salad",
+//         "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/pggdjuwidtipb2pxbhxd",
+//         "link": "/Help",
+//         "quantity": 1,
+//     },
+// ];
+
+
+// export const AllSouthIndian = [
+//     {
+//         "Type": "AllSouthIndian",
+//         "Name": "Paper Masala Dosa",
+//         "Price": 90,
+//         "Rating": 3.4,
+//         "Text": "A flavorful and authentic South Indian delight filled with aromatic spices and served with traditional condiments.",
+//         "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/pggdjuwidtipb2pxbhxd",
+//         "link": "/Help",
+//         "quantity": 1,
+//     },
+//     {
+//         "Type": "AllSouthIndian",
+//         "Name": "Cutting Dosa",
+//         "Price": 250,
+//         "Rating": 3.4,
+//         "Text": "A flavorful and crispy South Indian specialty, perfect for those looking for a savory breakfast or snack option.",
+//         "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/61f881a857e79d42f640e775166fcabc",
+//         "link": "/Help",
+//         "quantity": 1,
+//     },
+//     {
+//         "Type": "AllSouthIndian",
+//         "Name": "Chesse Dosa",
+//         "Price": 250,
+//         "Rating": 3.4,
+//         "Text": "A delightful, flavorful South Indian delicacy that will satisfy your craving for a cheesy, veggie-filled treat.",
+//         "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/719f10bccb9f292a20954d483812e996",
+//         "link": "/Help",
+//         "quantity": 1,
+//     },
+//     {
+//         "Type": "AllSouthIndian",
+//         "Name": "Masala Dosa",
+//         "Price": 250,
+//         "Rating": 3.4,
+//         "Text": "A flavorful and aromatic South Indian delight with a crispy exterior wrapping a delectable filling.",
+//         "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/f36d3e4fce447533d99fa46c6474c098",
+//         "link": "/Help",
+//         "quantity": 1,
+//     },
+//     {
+//         "Type": "AllSouthIndian",
+//         "Name": "Mysore Dosa",
+//         "Price": 250,
+//         "Rating": 3.4,
+//         "Text": "Experience an authentic taste of South India with this flavorful and enticing dosa bursting with a harmonious blend of traditional spices and mouthwatering flavors.",
+//         "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/9/30/848d0ec3-1cae-4d3f-b660-10bfd6609d8d_b355ecee-bda5-409b-a66c-8993b30d81ea.JPG",
+//         "link": "/Help",
+//         "quantity": 1,
+//     },
+//     {
+//         "Type": "AllSouthIndian",
+//         "Name": "Plain Dosa Butter",
+//         "Price": 250,
+//         "Rating": 3.4,
+//         "Text": "Experience the ultimate South Indian delight with a buttery twist that will leave you craving for more.",
+//         "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/wfeam0y9bzqmonvn4ihr",
+//         "link": "/Help",
+//         "quantity": 1,
+//     },
+// ];
+
+// export const AllSandwich = [
+//     {
+//         "Type": "AllSandwich",
+//         "Name": "Veg Sandwich",
+//         "Price": 90,
+//         "Rating": 3.4,
+//         "Text": "A delectable vegetarian delight nestled between two slices of bread, perfect for a quick, satisfying meal.",
+//         "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/kg41taveqaaj53lxjydx",
+//         "link": "/Help",
+//         "quantity": 1,
+//     },
+//     {
+//         "Type": "AllSandwich",
+//         "Name": "Cheese Sandwich",
+//         "Price": 250,
+//         "Rating": 3.4,
+//         "Text": "A delectable and savory veg sandwich, layered with melted cheese, satisfying all your cravings.",
+//         "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/mg6drgmpj3b7xbjjmdke",
+//         "link": "/Help",
+//         "quantity": 1,
+//     },
+//     {
+//         "Type": "AllSandwich",
+//         "Name": "Chesse Grill Sandwich",
+//         "Price": 250,
+//         "Rating": 3.4,
+//         "Text": "A delectable and savory grilled sandwich filled with gooey melted cheese, perfect for satisfying your hunger and indulging in a burst of flavors.",
+//         "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/4/9/13c44147-807e-4e15-9f3f-af8e46000da6_0a6a4fdc-0c21-4ce1-b099-c4bacabbe252.JPG",
+//         "link": "/Help",
+//         "quantity": 1,
+//     },
+// ];
+
+// export const AllBeverages = [
+//     {
+//         "Type": "AllBeverages",
+//         "Name": "Tea",
+//         "Price": 25,
+//         "Rating": 3.4,
+//         "Text": "A refreshing and flavorful beverage perfect for any time of day, offering a soothing blend of comforting flavors.",
+//         "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2025/1/20/b8ad5ca0-fc0a-415e-9090-d205cfef628a_7874c8d3-49ef-4919-9e6b-f01ad9959059.JPG",
+//         "link": "/Help",
+//         "quantity": 1,
+//     },
+//     {
+//         "Type": "AllBeverages",
+//         "Name": "Coffee",
+//         "Price": 250,
+//         "Rating": 3.4,
+//         "Text": "A comforting and invigorating beverage crafted with care, perfect for any time of the day or occasion.",
+//         "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2025/1/20/f00ed8b3-9535-49d5-95bf-50665bd825c2_69316254-d323-44e8-b265-6cf26c22bc99.JPG",
+//         "link": "/Help",
+//         "quantity": 1,
+//     },
+//     {
+//         "Type": "AllBeverages",
+//         "Name": "Masala Tea",
+//         "Price": 250,
+//         "Rating": 3.4,
+//         "Text": "Indulge in a rich and aromatic hot beverage, bursting with exotic flavors and warm spices.",
+//         "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2025/1/20/b55cadd0-663f-4d94-8b7f-3c6dd2bc149b_53f806da-b42b-427a-98c9-059d7a8dfc45.JPG",
+//         "link": "/Help",
+//         "quantity": 1,
+//     },
+//     {
+//         "Type": "AllBeverages",
+//         "Name": "Jaljeera",
+//         "Price": 250,
+//         "Rating": 3.4,
+//         "Text": "Indulge in a rich and aromatic hot beverage, bursting with exotic flavors and warm spices.",
+//         "img": "",
+//         "link": "/Help",
+//         "quantity": 1,
+//     },
+//     {
+//         "Type": "AllBeverages",
+//         "Name": "Buttermilk",
+//         "Price": 250,
+//         "Rating": 3.4,
+//         "Text": "A creamy and refreshing blend that will tantalize your taste buds.",
+//         "img": "",
+//         "link": "/Help",
+//         "quantity": 1,
+//     },
+//     {
+//         "Type": "AllBeverages",
+//         "Name": "Cold Coffee With Icecream",
+//         "Price": 250,
+//         "Rating": 3.4,
+//         "Text": "Indulge in a refreshing blend of coffee and a velvety scoop of ice cream, perfect for satisfying your cravings and cooling down on a warm day.",
+//         "img": "",
+//         "link": "/Help",
+//         "quantity": 1,
+//     },
+// ];
+
+
+// // Paneer Main Course
+// export const AllPaneerMainCourse = [
+//     {
+//         "Type": "AllPaneerMainCourse",
+//         "Name": "Paneer Hyderabadi",
+//         "Price": 25,
+//         "Rating": 3.4,
+//         "Text": "Savory and rich, this authentic Hyderabadi dish with paneer is a delightful treat for any paneer lover.",
+//         "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2025/1/13/01562b7b-8bc2-4e99-91b8-f7365c98cbb4_555e56d6-1c44-4438-b8aa-e50a0b40155c.JPG",
+//         "link": "/Help",
+//         "quantity": 1,
+//     },
+//     {
+//         "Type": "AllPaneerMainCourse",
+//         "Name": "Paneer Pasanda",
+//         "Price": 250,
+//         "Rating": 3.4,
+//         "Text": "A delectable and flavorful main course showcasing the creamy and succulent goodness of paneer.",
+//         "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/fvc8yjrvakz4sexdc5vq",
+//         "link": "/Help",
+//         "quantity": 1,
+//     },
+//     {
+//         "Type": "AllPaneerMainCourse",
+//         "Name": "Paneer Kolapuri",
+//         "Price": 250,
+//         "Rating": 3.4,
+//         "Text": "A delectable and flavorful combination of paneer cooked in a rich and aromatic Kolapuri-style gravy.",
+//         "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/10/1/a15dc255-dbfc-4a02-a6ab-3d77d59c0598_c1b51b29-327f-40af-a0dd-18403bacfc16.JPG",
+//         "link": "/Help",
+//         "quantity": 1,
+//     },
+//     {
+//         "Type": "AllPaneerMainCourse",
+//         "Name": "Paneer Kadhai",
+//         "Price": 250,
+//         "Rating": 3.4,
+//         "Text": "A delightful and flavorful vegetarian delicacy bursting with aromatic spices and tender paneer, perfect for a satisfying main course.",
+//         "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/9/30/574e7034-c0b1-4e19-ad19-25eb8bfc843e_0360a364-c787-4e60-915c-d56e239afb76.JPG",
+//         "link": "/Help",
+//         "quantity": 1,
+//     },
+//     {
+//         "Type": "AllPaneerMainCourse",
+//         "Name": "Mutter Paneer Mushroom",
+//         "Price": 250,
+//         "Rating": 3.4,
+//         "Text": "A delectable fusion of paneer and mushrooms in a rich and flavorful curry.",
+//         "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2025/1/13/a3f66a03-9375-45b7-b4f8-a67d7ffa5d9e_548650da-4d08-493b-a324-f5b65f6338c5.JPG",
+//         "link": "/Help",
+//         "quantity": 1,
+//     },
+//     {
+//         "Type": "AllPaneerMainCourse",
+//         "Name": "Paneer Butter Masala",
+//         "Price": 250,
+//         "Rating": 3.4,
+//         "Text": "A rich and creamy paneer dish, bursting with flavors that will tantalize your taste buds.",
+//         "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/f7f9c2e673df280e6b04d3eacffac216",
+//         "link": "/Help",
+//         "quantity": 1,
+//     },
+//     {
+//         "Type": "AllPaneerMainCourse",
+//         "Name": "Paneer Masala",
+//         "Price": 250,
+//         "Rating": 3.4,
+//         "Text": "A flavorful and aromatic Indian delicacy highlighting the succulent paneer in a mouthwatering gravy.",
+//         "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/5ca5ac31e633994337a090db3d8da86b",
+//         "link": "/Help",
+//         "quantity": 1,
+//     },
+//     {
+//         "Type": "AllPaneerMainCourse",
+//         "Name": "Shahi Paneer",
+//         "Price": 250,
+//         "Rating": 3.4,
+//         "Text": "A rich and creamy Indian delicacy showcasing succulent paneer cooked in a delectable, aromatic gravy.",
+//         "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/mivvmigdvetthjncouzj",
+//         "link": "/Help",
+//         "quantity": 1,
+//     },
+//     {
+//         "Type": "AllPaneerMainCourse",
+//         "Name": "Paneer Kaju Kari",
+//         "Price": 250,
+//         "Rating": 3.4,
+//         "Text": "A creamy and flavorful paneer main course, delicately prepared with cashews for an irresistible twist.",
+//         "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/88d7f6e120da8f167971904e0f11e8a5",
+//         "link": "/Help",
+//         "quantity": 1,
+//     },
+//     {
+//         "Type": "AllPaneerMainCourse",
+//         "Name": "Mutter Paneer",
+//         "Price": 250,
+//         "Rating": 3.4,
+//         "Text": "A delectable and hearty vegetarian dish featuring tender paneer and succulent green peas.",
+//         "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/9c5c6b6f74d3753fd56ded55d22ac21b",
+//         "link": "/Help",
+//         "quantity": 1,
+//     },
+// ];
+
+
+// // Lassi
+// export const AllLassi = [
+//     {
+//         "Type": "AllLassi",
+//         "Name": "Sweet Lassi",
+//         "Price": 40,
+//         "Rating": 3.4,
+//         "Text": "A refreshing and creamy delight that perfectly balances sweetness and tanginess, offering a delightful taste of India.",
+//         "img": "",
+//         "link": "/Help",
+//         "quantity": 1,
+//     },
+//     {
+//         "Type": "AllLassi",
+//         "Name": "Special Icecream Lassi",
+//         "Price": 80,
+//         "Rating": 3.4,
+//         "Text": "A delightful and refreshing twist on traditional lassi, this special ice cream creation is a flavorful treat for vegetarians.",
+//         "img": "",
+//         "link": "/Help",
+//         "quantity": 1,
+//     },
+// ];
+
+
+// // Rice
+// export const AllRice = [
+//     {
+//         "Type": "AllRice",
+//         "Name": "Jeera Rice",
+//         "Price": 40,
+//         "Rating": 3.4,
+//         "Text": "Aromatic and flavorsome rice dish seasoned with fragrant spices.",
+//         "img": "",
+//         "link": "/Help",
+//         "quantity": 1,
+//     },
+//     {
+//         "Type": "AllRice",
+//         "Name": "Veg Pulao",
+//         "Price": 80,
+//         "Rating": 3.4,
+//         "Text": "A flavorful and aromatic rice dish packed with a delightful medley of vegetables.",
+//         "img": "",
+//         "link": "/Help",
+//         "quantity": 1,
+//     },
+//     {
+//         "Type": "AllRice",
+//         "Name": "Steam Rice",
+//         "Price": 80,
+//         "Rating": 3.4,
+//         "Text": "Delight in a delectable, flavorful blend of fluffy rice cooked to perfection.",
+//         "img": "",
+//         "link": "/Help",
+//         "quantity": 1,
+//     },
+//     {
+//         "Type": "AllRice",
+//         "Name": "Curd Rice",
+//         "Price": 80,
+//         "Rating": 3.4,
+//         "Text": "Creamy and flavorful rice delicacy that offers a soothing and satisfying experience.",
+//         "img": "",
+//         "link": "/Help",
+//         "quantity": 1,
+//     },
+// ];
+
+
+// // Roti
+// export const AllRoti = [
+//     {
+//         "Type": "AllRoti",
+//         "Name": "Tawa Roti Plain",
+//         "Price": 12,
+//         "Rating": 3.4,
+//         "Text": "A delectable Indian flatbread cooked on a hot griddle, perfect to accompany your favorite curry or enjoy on its own.",
+//         "img": "",
+//         "link": "/Help",
+//         "quantity": 1,
+//     },
+//     {
+//         "Type": "AllRoti",
+//         "Name": "Tawa Butter Roti",
+//         "Price": 80,
+//         "Rating": 3.4,
+//         "Text": "Flavorful and indulgent, this buttery Roti is expertly cooked on a tawa to give it a deliciously crisp and soft texture.",
+//         "img": "",
+//         "link": "/Help",
+//         "quantity": 1,
+//     },
+// ];

@@ -62,7 +62,7 @@ export const Paratha = () => {
                         </Col>
                     </Row>
 
-                    <Row className=" row-gap-4 py-5 mb-5">
+                    {/* <Row className=" row-gap-4 py-5 mb-5">
                         <h3 style={{ fontSize:"24px", fontWeight:"bold"}}>Restaurants to explore</h3>
                         {HomeData.map((item, index) => {
                             return (
@@ -95,7 +95,7 @@ export const Paratha = () => {
                             )
                         })
                         }
-                    </Row>
+                    </Row> */}
                 </Container>
             </Container>
 
