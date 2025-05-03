@@ -16,54 +16,54 @@ export const NorthIndian = () => {
         {
             img: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/fa4944f0cfdcbca2bec1f3ab8e3db3f7",
             HotalName: "The Fusion Lounge", Time: "35-40mins", rating: 4.3,
-            DishName: "South Indian, Chinese, Beverages, Fast Food, Desserts", link: "/Help",
+            DishName: "South Indian, Chinese, Beverages, Fast Food, Desserts", link: "/PureVegMenu",
         },
         {
             img: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/vkhcohhmqfczycw9vsar",
             HotalName: "Hotel Sai Nath & Sai Restaurant", Time: "35-40mins", rating: 4.3,
-            DishName: "North Indian, South Indian, Chinese...", link: "/Help"
+            DishName: "North Indian, South Indian, Chinese...", link: "/PureVegMenu"
         },
         {
             img: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/gp1ityra6utvzqn6ghnv",
             HotalName: "Adil Hotel", Time: "35-40mins", rating: 4.1,
-            DishName: "North Indian, Biryani, Tandoor", link: "/Help"
+            DishName: "North Indian, Biryani, Tandoor", link: "/PureVegMenu"
         },
         {
             img: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/yzgqriufpzmloogcn2vl",
             HotalName: "Jai Ganesh Bhojnalaya", Time: "35-40mins", rating: 4.3,
-            DishName: "North Indian, South Indian, Indian, Chinese..", link: "/Help"
+            DishName: "North Indian, South Indian, Indian, Chinese..", link: "/PureVegMenu"
         },
 
         {
             img: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/2469fa88ee9b0b5d1366ba88f2a7fa7f",
             HotalName: "Indian Coffee House", Time: "35-40mins", rating: 4.3,
-            DishName: "South Indian, Chinese, Fast Food, Beverages", link: "/Help"
+            DishName: "South Indian, Chinese, Fast Food, Beverages", link: "/PureVegMenu"
         },
 
         {
             img: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/rvxp5xbniat84r6efku2",
             HotalName: "Satkar Restaurant", Time: "35-40mins", rating: 4.3,
-            DishName: "North Indian, South Indian, Indian, Salads, Desserts", link: "/Help"
+            DishName: "North Indian, South Indian, Indian, Salads, Desserts", link: "/PureVegMenu"
         },
         {
             img: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/6/21/dbe91f1f-b400-4f4b-a78d-c6b99bdc61c5_912754.JPG",
             HotalName: "Urban Cafe", Time: "35-40mins", rating: 4.3,
-            DishName: "Snacks, Pizzas, Pastas, Fast Food, Burgers, Cafe", link: "/Help"
+            DishName: "Snacks, Pizzas, Pastas, Fast Food, Burgers, Cafe", link: "/PureVegMenu"
         },
         {
             img: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/enj3srsnhbltbom2ovvh",
             HotalName: "Dev International", Time: "35-40mins", rating: 4.3,
-            DishName: "North Indian, Chinese, Fast Food, Beverages", link: "/Help"
+            DishName: "North Indian, Chinese, Fast Food, Beverages", link: "/PureVegMenu"
         },
         {
             img: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/ryzswg44bt7thqzkuaj4",
             HotalName: "Sab Ghar Tak Foods", Time: "35-40mins", rating: 4.3,
-            DishName: "North Indian, South Indian, Chinese...", link: "/Help"
+            DishName: "North Indian, South Indian, Chinese...", link: "/PureVegMenu"
         },
         {
             img: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/23f2e646af4a747829c649c6d1929e9a",
             HotalName: "The Woods Cafe", Time: "35-40mins", rating: 4.3,
-            DishName: "Chaat, Fast Food, Beverages", link: "/Help"
+            DishName: "Chaat, Fast Food, Beverages", link: "/PureVegMenu"
         },
     ];
     return (

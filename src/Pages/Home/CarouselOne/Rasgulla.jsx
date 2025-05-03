@@ -16,34 +16,34 @@ export const Rasgulla = () => {
         {
             img: "ResWithOnlineFood/dc74a4b7-8d63-4eb7-91c9-048973c2cc99_1003414.avif",
             HotalName: "Adil Hotel", Time: "35-40mins", rating: 4.3,
-            DishName: "North Indian, Biryani, Tandoor", link: "/Help",
+            DishName: "North Indian, Biryani, Tandoor", link: "/PureVegMenu",
         },
         {
             img: "ResWithOnlineFood/gp1ityra6utvzqn6ghnv.avif",
             HotalName: "Bakery World", Time: "35-40mins", rating: 4.3,
-            DishName: "Bakery, Ice Cream, Snacks, Beverages", link: "/Help"
+            DishName: "Bakery, Ice Cream, Snacks, Beverages", link: "/PureVegMenu"
         },
         {
             img: "ResWithOnlineFood/dbe91f1f-b400-4f4b-a78d-c6b99bdc61c5_912754.avif",
             HotalName: "Hotel Sai Nath & Sai Restaurant", Time: "35-40mins", rating: 4.1,
-            DishName: "North Indian, South Indian, Chinese...", link: "/Help"
+            DishName: "North Indian, South Indian, Chinese...", link: "/PureVegMenu"
         },
         {
             img: "ResWithOnlineFood/rvxp5xbniat84r6efku2.avif",
             HotalName: "The Fusion Lounge", Time: "35-40mins", rating: 4.3,
-            DishName: "South Indian, Chinese, Beverages...", link: "/Help"
+            DishName: "South Indian, Chinese, Beverages...", link: "/PureVegMenu"
         },
 
         {
             img: "ResWithOnlineFood/78517964-20dc-4e37-92ce-8990deb14ab6_898041.avif",
             HotalName: "Satkar Restaurant", Time: "35-40mins", rating: 4.3,
-            DishName: "North Indian, South Indian, Indian...", link: "/Help"
+            DishName: "North Indian, South Indian, Indian...", link: "/PureVegMenu"
         },
 
         {
             img: "ResWithOnlineFood/vkhcohhmqfczycw9vsar.avif",
             HotalName: "Kathi Junction", Time: "35-40mins", rating: 4.3,
-            DishName: "rolls, Burgers, Pizzas, Fast Food", link: "/Help"
+            DishName: "rolls, Burgers, Pizzas, Fast Food", link: "/PureVegMenu"
         },
     ];
     return (

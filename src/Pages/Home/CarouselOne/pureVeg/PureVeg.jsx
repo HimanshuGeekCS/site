@@ -6,7 +6,7 @@ import Nav from 'react-bootstrap/Nav';
 import { Link } from "react-router";
 
 
-import React, { Component } from "react";
+// import React, { Component } from "react";
 import { FaStar } from "react-icons/fa";
 import { LuDot } from "react-icons/lu";
 
@@ -82,15 +82,15 @@ export const PureVeg = () => {
                         <Col lg="12">
                             <div>
                                 <div>
-                                    <h2 style={{ fontSize:"45px", fontWeight:"bold"}}>Pure Veg </h2>
-                                    <p style={{ fontSize:"18px", fontWeight:"490"}}>A vegetarian paradise loaded with options to satisfy your cravings.</p>
+                                    <h2 style={{ fontSize: "45px", fontWeight: "bold" }}>Pure Veg </h2>
+                                    <p style={{ fontSize: "18px", fontWeight: "490" }}>A vegetarian paradise loaded with options to satisfy your cravings.</p>
                                 </div>
                             </div>
                         </Col>
                     </Row>
 
                     <Row className=" row-gap-4 py-5 mb-5">
-                        <h3 style={{ fontSize:"24px", fontWeight:"bold"}}>Restaurants to explore</h3>
+                        <h3 style={{ fontSize: "24px", fontWeight: "bold" }}>Restaurants to explore</h3>
                         {HomeData.map((item, index) => {
                             return (
                                 <Col lg="3" sm="4">

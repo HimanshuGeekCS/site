@@ -16,17 +16,17 @@ export const SouthIndian = () => {
         {
             img: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/2469fa88ee9b0b5d1366ba88f2a7fa7f",
             HotalName: "Indian Coffee House", Time: "35-40mins", rating: 4.3,
-            DishName: "South Indian, Chinese, Fast Food, Beverages", link: "/Help",
+            DishName: "South Indian, Chinese, Fast Food, Beverages", link: "/PureVegMenu",
         },
         {
             img: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/vkhcohhmqfczycw9vsar",
             HotalName: "Hotel Sai Nath & Sai Restaurant", Time: "35-40mins", rating: 4.3,
-            DishName: "North Indian, South Indian, Chinese...", link: "/Help"
+            DishName: "North Indian, South Indian, Chinese...", link: "/PureVegMenu"
         },
         {
             img: "ResWithOnlineFood/dbe91f1f-b400-4f4b-a78d-c6b99bdc61c5_912754.avif",
             HotalName: "Urban Cafe", Time: "35-40mins", rating: 4.1,
-            DishName: "Snacks, Pizzas, Pastas, Fast Food, Burgers, Cafe", link: "/Help"
+            DishName: "Snacks, Pizzas, Pastas, Fast Food, Burgers, Cafe", link: "/PureVegMenu"
         }
     ];
     return (

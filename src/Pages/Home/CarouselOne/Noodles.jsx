@@ -16,39 +16,39 @@ export const Noodles = () => {
         {
             img: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/FOOD_CATALOG/IMAGES/CMS/2024/10/2/12c3cfd3-5416-4f4c-a835-d8853af271b3_a2759d2f-0edd-4b4d-9354-ebe509e02723.JPG",
             HotalName: "The Fusion Lounge", Time: "35-40mins", rating: 4.3,
-            DishName: "South Indian, Chinese, Beverages, Fast Food, Desserts", link: "/Help",
+            DishName: "South Indian, Chinese, Beverages, Fast Food, Desserts", link: "/PureVegMenu",
         },
         {
             img: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/qe1frassmh9oj1kypond",
             HotalName: "Hotel Sai Nath & Sai Restaurant", Time: "35-40mins", rating: 4.3,
-            DishName: "North Indian, South Indian, Chinese...", link: "/Help"
+            DishName: "North Indian, South Indian, Chinese...", link: "/PureVegMenu"
         },
         {
             img: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/FOOD_CATALOG/IMAGES/CMS/2025/1/24/d123dcb8-3a82-4726-8882-84f070857d97_3286ddfd-6f15-4cd4-a051-36871e9384ce.jpg",
             HotalName: "Indian Coffee House", Time: "35-40mins", rating: 4.1,
-            DishName: "South Indian, Chinese, Fast Food, Beverages", link: "/Help"
+            DishName: "South Indian, Chinese, Fast Food, Beverages", link: "/PureVegMenu"
         },
         {
             img: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/FOOD_CATALOG/IMAGES/CMS/2024/8/8/4158576f-645e-469a-b41d-6ebf5871fd9a_135bb342-7939-460f-a8a6-c6e1ac78ff64.jpg",
             HotalName: "BABA CHAINES", Time: "35-40mins", rating: 4.3,
-            DishName: "Indian, Juices, Street Food, Pastas, Fast Food, Cafe", link: "/Help"
+            DishName: "Indian, Juices, Street Food, Pastas, Fast Food, Cafe", link: "/PureVegMenu"
         },
 
         {
             img: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/FOOD_CATALOG/IMAGES/CMS/2025/3/15/ea7a4321-b0bc-4b54-be94-324eafa1eab1_0d8ee559-3d7a-44bd-b532-c59a089478c9.jpg",
             HotalName: "Satkar Restaurant", Time: "35-40mins", rating: 4.3,
-            DishName: "North Indian, South Indian, Indian, Salads, Desserts", link: "/Help"
+            DishName: "North Indian, South Indian, Indian, Salads, Desserts", link: "/PureVegMenu"
         },
 
         {
             img: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/e5d1cbf972517097f108aa24553f1d91",
             HotalName: "Kathi Junction", Time: "35-40mins", rating: 4.3,
-            DishName: "rolls, Burgers, Pizzas, Fast Food", link: "/Help"
+            DishName: "rolls, Burgers, Pizzas, Fast Food", link: "/PureVegMenu"
         },
         {
             img: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/FOOD_CATALOG/IMAGES/CMS/2025/1/13/30e7e25f-03ec-4b40-8f1f-3fe557a5af5d_82fb8a29-0866-4bc5-b55a-8001da1405d1.JPG",
             HotalName: "Urban Cafe", Time: "35-40mins", rating: 4.3,
-            DishName: "Snacks, Pizzas, Pastas, Fast Food, Burgers, Cafe", link: "/Help"
+            DishName: "Snacks, Pizzas, Pastas, Fast Food, Burgers, Cafe", link: "/PureVegMenu"
         },
     ];
     return (

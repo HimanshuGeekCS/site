@@ -8,7 +8,7 @@ import { Help } from './Pages/Help/Help';
 import { Cart } from './Pages/Cart';
 import { Home } from './Pages/Home/Home';
 import { PureVeg } from './Pages/Home/CarouselOne/pureVeg/PureVeg/';
-// import { Paratha } from './Pages/Home/CarouselOne/paratha/Paratha';
+import { Paratha } from './Pages/Home/CarouselOne/paratha/Paratha';
 import { Chinese } from './Pages/Home/CarouselOne/Chinese';
 import { Tea } from './Pages/Home/CarouselOne/Tea';
 import { Coffee } from './Pages/Home/CarouselOne/Coffee';
@@ -27,7 +27,7 @@ import { AdilHotel } from './Pages/Home/ResWithOnlineFood/AdilHotel';
 
 import { Explogin } from './Pages/loginForm/Explogin';
 import { Login } from './Pages/loginForm/Login';
-// import { ParathaMenu } from './Pages/Home/CarouselOne/paratha/ParathaMenu';
+import { ParathaMenu } from './Pages/Home/CarouselOne/paratha/ParathaMenu';
 import { PureVegMenu } from './Pages/Home/CarouselOne/pureVeg/PureVegMenu';
 import { Best_Restaurants_City } from './Pages/Home/BestPlaceEat/Best_Restaurants_City';
 
@@ -76,10 +76,10 @@ function App() {
           path: "/PureVeg",
           element: <PureVeg />,
         },
-        // {
-        //   path: "/Paratha",
-        //   element: <Paratha />,
-        // },
+        {
+          path: "/Paratha",
+          element: <Paratha />,
+        },
         {
           path: "/Chinese",
           element: <Chinese />,
@@ -136,10 +136,10 @@ function App() {
           path: "/AdilHotel",
           element: <AdilHotel />,
         },
-        // {
-        //   path: "/ParathaMenu",
-        //   element: <ParathaMenu />,
-        // },
+        {
+          path: "/ParathaMenu",
+          element: <ParathaMenu />,
+        },
         {
           path: "/PureVegMenu",
           element: <PureVegMenu/>,

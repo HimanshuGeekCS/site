@@ -16,22 +16,22 @@ export const Tea = () => {
         {
             img: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/FOOD_CATALOG/IMAGES/CMS/2024/6/6/8f48cf2a-182c-42c7-bd04-70820d7e554e_4eb4d771-1445-44f0-8c65-3c8c4d439f0f.jpg",
             HotalName: "Indian Coffee House", Time: "35-40mins", rating: 4.3,
-            DishName: "South Indian, Chinese, Fast Food, Beverages", link: "/Help",
+            DishName: "South Indian, Chinese, Fast Food, Beverages", link: "/PureVegMenu",
         },
         {
             img: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/FOOD_CATALOG/IMAGES/CMS/2025/1/20/b55cadd0-663f-4d94-8b7f-3c6dd2bc149b_53f806da-b42b-427a-98c9-059d7a8dfc45.JPG",
             HotalName: "Hotel Sai Nath & Sai Restaurant", Time: "35-40mins", rating: 4.1,
-            DishName: "North Indian, South Indian, Chinese...", link: "/Help"
+            DishName: "North Indian, South Indian, Chinese...", link: "/PureVegMenu"
         },
         {
             img: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/4/1/04109fba-1c29-43b5-a800-2446374aa978_864617.jpg",
             HotalName: "Sab Ghar Tak Foods", Time: "35-40mins", rating: 4.3,
-            DishName: "Chinese, Biryani, Indian, Beverages, Tandoor", link: "/Help"
+            DishName: "Chinese, Biryani, Indian, Beverages, Tandoor", link: "/PureVegMenu"
         },
         {
             img: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/db1b6a51a06526d69e2bdd34d26811dc",
             HotalName: "Kathi Junction", Time: "35-40mins", rating: 4.3,
-            DishName: "rolls, Burgers, Pizzas, Fast Food", link: "/Help"
+            DishName: "rolls, Burgers, Pizzas, Fast Food", link: "/PureVegMenu"
         },
     ];
     return (

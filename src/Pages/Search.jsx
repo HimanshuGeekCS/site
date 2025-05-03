@@ -6,8 +6,7 @@ import { AllHomeData } from "../HotalName";
 
 import Nav from 'react-bootstrap/Nav';
 import { Link } from "react-router";
-import { item } from "./Home/CarouselOne/Menu";
-// import { AllParatha } from "./Home/CarouselOne/Menu";
+import { AllParatha, item } from "./Home/CarouselOne/Menu";
 
 export const Search = () => {
     const [search, setSearch] = useState("");
@@ -21,10 +20,17 @@ export const Search = () => {
         return AllHomeData.filter((e) => (e.HotalName.toLowerCase().includes(search)));
 
     }
-     // this function for purevegMenu
+
+    // this function for purevegMenu
     function filteredTasks2() {
         // Filter tasks based on search input
         return item.filter((e) => (e.Name.toLowerCase().includes(search)));
+    }
+
+    // this function for paratha
+    function filteredTasks3() {
+        // Filter tasks based on search input
+        return AllParatha.filter((e) => (e.Name.toLowerCase().includes(search)));
     }
 
     return (
@@ -36,11 +42,6 @@ export const Search = () => {
                             <div>
                                 <input className=" w-100 fw-medium px-2" placeholder="Search for restaurants and food" style={{ height: "48px" }} type="text" value={search} onChange={(e) => setSearch(e.target.value)} />
                             </div>
-                            <div>
-                                {/* <FiSearch /> */}
-
-                            </div>
-
                         </Col>
 
                         {search.length > 0 ?
@@ -74,7 +75,39 @@ export const Search = () => {
                                         </>
                                     )
                                 })}
+
                                 {filteredTasks2().map((e, ind) => {
+                                    return (
+                                        <>
+                                            <table className="table table-hover">
+                                                <thead>
+                                                    <tr>
+                                                    </tr>
+                                                </thead>
+
+                                                <tbody >
+                                                    <tr>
+                                                        <td>
+                                                            <Nav.Link as={Link} to={e.link} className="text-decoration-none" >
+                                                                <div className=" d-flex  align-items-center column-gap-2">
+                                                                    <div>
+                                                                        <img src={e.img} alt="" style={{ width: "70px", height: "70px", borderRadius: "10%", objectFit: "cover" }} />
+                                                                    </div>
+                                                                    <div>
+                                                                        {/* {e.HotalName} */}
+                                                                        {e.Name}
+                                                                    </div>
+                                                                </div>
+                                                            </Nav.Link>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </>
+                                    )
+                                })}
+
+                                {filteredTasks3().map((e, ind) => {
                                     return (
                                         <>
                                             <table className="table table-hover">
@@ -106,12 +139,7 @@ export const Search = () => {
                                 })}
                             </Col> : null}
                     </Row>
-
-
-
-                    <Row className="py-5 my-5">
-
-                    </Row>
+                    <Row className="py-5 my-5"></Row>
                 </Container>
             </Container>
         </>
