@@ -92,65 +92,65 @@ export const AdilHotel = () => {
                                             <p className=" fw-bolder"> {key}</p></Accordion.Header>
                                         <Accordion.Body>
                                             {groupedData[key].filter((item, index) => {
-                                                    if (item.Type === item.Type) {
-                                                        return item;
+                                                if (item.Type === item.Type) {
+                                                    return item;
 
-                                                    }
-                                                }).map((item, index) => {
-                                                    return (
-                                                        <>
-                                                            <div key={index} className=" d-flex justify-content-between column-gap-5">
+                                                }
+                                            }).map((item, index) => {
+                                                return (
+                                                    <>
+                                                        <div key={index} className=" d-flex justify-content-between column-gap-5">
+                                                            <div>
                                                                 <div>
-                                                                    <div>
-                                                                        <h6>{item.Name}</h6>
-                                                                        <h6>{item.Price}</h6>
-                                                                    </div>
-                                                                    <div className=" d-flex align-items-center column-gap-1" >
-                                                                        <FaStar style={{ color: "green" }} />
-                                                                        {item.Rating}
-                                                                    </div>
-                                                                    <p>{item.Text}</p>
+                                                                    <h6>{item.Name}</h6>
+                                                                    <h6>{item.Price}</h6>
                                                                 </div>
-                                                                <div className="text-center d-flex justify-content-center align-items-end">
-                                                                    <img src={item.img} alt="" style={{ width: "156px", height: "144px", objectFit: "cover", borderRadius: "12px" }} />
+                                                                <div className=" d-flex align-items-center column-gap-1" >
+                                                                    <FaStar style={{ color: "green" }} />
+                                                                    {item.Rating}
+                                                                </div>
+                                                                <p>{item.Text}</p>
+                                                            </div>
+                                                            <div className="text-center d-flex justify-content-center align-items-end">
+                                                                <img src={item.img} alt="" style={{ width: "156px", height: "144px", objectFit: "cover", borderRadius: "12px" }} />
 
-                                                                    <div className=" position-absolute ">
-                                                                        {
-                                                                            !cartdata?.some((i) => i.Name === item.Name) ?
-                                                                                <button className="btn  btn-light  border-secondary text-success fw-bold shadow-lg" style={{ width: "7rem" }} onClick={() => Click(item)} >
-                                                                                    Add
-                                                                                </button> :
-                                                                                <div className="bg-light rounded border-secondary text-success fw-bold shadow-lg d-flex justify-content-center align-items-center  column-gap-2">
-                                                                                    <div className="btn btn-light " onClick={() => increaseQty(item)}>
-                                                                                        <LuPlus />
-                                                                                    </div>
-
-                                                                                    <div className="">
-                                                                                        {
-                                                                                            cartdata.find((e) => {
-                                                                                                if (e.Name === item.Name) {
-                                                                                                    return e;
-                                                                                                }
-                                                                                            }).quantity
-                                                                                        }
-                                                                                    </div>
-
-                                                                                    <div className="btn btn-light " onClick={() => decreaseQty(item)} >
-                                                                                        <FaMinus />
-                                                                                    </div>
-
+                                                                <div className=" position-absolute ">
+                                                                    {
+                                                                        !cartdata?.some((i) => i.Name === item.Name) ?
+                                                                            <button className="btn  btn-light  border-secondary text-success fw-bold shadow-lg" style={{ width: "7rem" }} onClick={() => Click(item)} >
+                                                                                Add
+                                                                            </button> :
+                                                                            <div className="bg-light rounded border-secondary text-success fw-bold shadow-lg d-flex justify-content-center align-items-center  column-gap-2">
+                                                                                <div className="btn btn-light " onClick={() => increaseQty(item)}>
+                                                                                    <LuPlus />
                                                                                 </div>
-                                                                        }
-                                                                    </div>
+
+                                                                                <div className="">
+                                                                                    {
+                                                                                        cartdata.find((e) => {
+                                                                                            if (e.Name === item.Name) {
+                                                                                                return e;
+                                                                                            }
+                                                                                        }).quantity
+                                                                                    }
+                                                                                </div>
+
+                                                                                <div className="btn btn-light " onClick={() => decreaseQty(item)} >
+                                                                                    <FaMinus />
+                                                                                </div>
+
+                                                                            </div>
+                                                                    }
                                                                 </div>
                                                             </div>
+                                                        </div>
 
-                                                            <div className="py-2">
-                                                                <hr style={{ border: "1px solid gray" }} />
-                                                            </div>
-                                                        </>
-                                                    )
-                                                })
+                                                        <div className="py-2">
+                                                            <hr style={{ border: "1px solid gray" }} />
+                                                        </div>
+                                                    </>
+                                                )
+                                            })
                                             }
                                         </Accordion.Body>
                                     </Accordion.Item>
