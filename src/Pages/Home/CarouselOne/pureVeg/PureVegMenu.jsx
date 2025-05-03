@@ -12,7 +12,6 @@ import { LuPlus } from "react-icons/lu";
 import { FaMinus } from "react-icons/fa6";
 
 import { item } from "../Menu";
-import { GroupedData } from "./groupby";
 // import { ThaliSouthIndian } from "./Thali&SouthIndian";
 // import { Sandwich_Beverages } from "./Sandwich_Beverages";
 // import { Paneer_Lussi } from "./Paneer_Lussi";
@@ -180,9 +179,6 @@ export const PureVegMenu = () => {
                         </Row>
 
                     ))}
-
-
-                    <GroupedData />
 
                 </Container>
             </Container >

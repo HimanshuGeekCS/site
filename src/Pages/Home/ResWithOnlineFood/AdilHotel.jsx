@@ -1,7 +1,7 @@
 import Container from "react-bootstrap/esm/Container";
 import Row from "react-bootstrap/esm/Row";
 import Col from "react-bootstrap/esm/Col";
-import { item } from "./MenuAdilHotal";
+import { item } from "./Adil Hotel/MenuAdilHotal";
 
 import Accordion from 'react-bootstrap/Accordion';
 import { LuPlus } from "react-icons/lu";
