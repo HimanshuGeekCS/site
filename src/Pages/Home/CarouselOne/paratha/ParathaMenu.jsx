@@ -16,7 +16,11 @@ import { AllParatha } from "../Menu";
 
 export const ParathaMenu = () => {
     const [Paratha, SetParatha] = useState(AllParatha)
-
+    
+    // when you click on page it show on top  
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
 
     // when button is click it get data form localStorage and store in state.
     const existData = JSON.parse(localStorage.getItem('item')) || [];

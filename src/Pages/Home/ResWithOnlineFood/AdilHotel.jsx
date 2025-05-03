@@ -1,7 +1,7 @@
 import Container from "react-bootstrap/esm/Container";
 import Row from "react-bootstrap/esm/Row";
 import Col from "react-bootstrap/esm/Col";
-import { item } from "./Adil Hotel/MenuAdilHotal";
+import { item } from "./MenuAdilHotal";
 
 import Accordion from 'react-bootstrap/Accordion';
 import { LuPlus } from "react-icons/lu";
@@ -11,6 +11,11 @@ import { useEffect, useState } from "react";
 export const AdilHotel = () => {
 
     const [Recommended, SetRecommended] = useState(item)
+
+    // when you click on page it show on top  
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
 
     // when button is click it get data form localStorage and store in state.
     const existData = JSON.parse(localStorage.getItem('item')) || [];

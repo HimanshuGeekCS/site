@@ -15,6 +15,12 @@ export const PureVegMenu = () => {
 
     const [Recommended, SetRecommended] = useState(item)
 
+    // when you click on page it show on top  
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
+
 
     // when button is click it get data form localStorage and store in state.
     const existData = JSON.parse(localStorage.getItem('item')) || [];
