@@ -57,7 +57,7 @@ export const item = [
         "Rating": 4.4,
         "Text": "1 paneer sabji, 1 veg sabji, 1 dal fry, 1 raita, 1 plain rice, 5 tawa roti, 1 papad, 1 gulab jamun, salad",
         "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/xspxjj3bwz66gc3ual7o",
-        "link": "/Help",
+        "link": "/PureVegMenu",
         "quantity": 1,
     },
     {
@@ -67,7 +67,7 @@ export const item = [
         "Rating": 3.4,
         "Text": "Butter dal khichdi , kachumber salad , 1 papad",
         "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/0444a09ec4e85f6651c4e5e7f4857f81",
-        "link": "/Help",
+        "link": "/PureVegMenu",
         "quantity": 1,
     },
     {
@@ -77,7 +77,7 @@ export const item = [
         "Rating": 3.4,
         "Text": "1 veg sabji, 2 paneer sabji, 5 tawa roti butter, 1 raita, 1 dal, 1 jeera rice, 1gulabjamun, 1 papad, salad",
         "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/wtoj1ug1dgdumrgkukij",
-        "link": "/Help",
+        "link": "/PureVegMenu",
         "quantity": 1,
     },
     {
@@ -87,7 +87,7 @@ export const item = [
         "Rating": 3.4,
         "Text": "A flavorful and authentic South Indian delight filled with aromatic spices and served with traditional condiments.",
         "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/pggdjuwidtipb2pxbhxd",
-        "link": "/Help",
+        "link": "/PureVegMenu",
         "quantity": 1,
     },
     {
@@ -97,7 +97,7 @@ export const item = [
         "Rating": 3.4,
         "Text": "A flavorful and crispy South Indian specialty, perfect for those looking for a savory breakfast or snack option.",
         "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/61f881a857e79d42f640e775166fcabc",
-        "link": "/Help",
+        "link": "/PureVegMenu",
         "quantity": 1,
     },
     {
@@ -107,7 +107,7 @@ export const item = [
         "Rating": 3.4,
         "Text": "A delightful, flavorful South Indian delicacy that will satisfy your craving for a cheesy, veggie-filled treat.",
         "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/719f10bccb9f292a20954d483812e996",
-        "link": "/Help",
+        "link": "/PureVegMenu",
         "quantity": 1,
     },
     {
@@ -117,7 +117,7 @@ export const item = [
         "Rating": 3.4,
         "Text": "A flavorful and aromatic South Indian delight with a crispy exterior wrapping a delectable filling.",
         "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/f36d3e4fce447533d99fa46c6474c098",
-        "link": "/Help",
+        "link": "/PureVegMenu",
         "quantity": 1,
     },
     {
@@ -127,7 +127,7 @@ export const item = [
         "Rating": 3.4,
         "Text": "A delectable vegetarian delight nestled between two slices of bread, perfect for a quick, satisfying meal.",
         "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/kg41taveqaaj53lxjydx",
-        "link": "/Help",
+        "link": "/PureVegMenu",
         "quantity": 1,
     },
     {
@@ -137,7 +137,7 @@ export const item = [
         "Rating": 3.4,
         "Text": "A delectable and indulgent paneer main course cooked to perfection in a traditional handi pot.",
         "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/wfeam0y9bzqmonvn4ihr",
-        "link": "/Help",
+        "link": "/PureVegMenu",
         "quantity": 1,
     },
     {
@@ -147,7 +147,7 @@ export const item = [
         "Rating": 3.4,
         "Text": "Butter chicken is a popular Indian dish made with chicken, spices, tomatoes & cream.",
         "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/oghuawtlzw4rz1rtx1pc",
-        "link": "/Help",
+        "link": "/PureVegMenu",
         "quantity": 1,
     },
 
@@ -159,7 +159,7 @@ export const item = [
         "Rating": 4.4,
         "Text": "1 paneer sabji, 1 veg sabji, 1 dal fry, 1 raita, 1 plain rice, 5 tawa roti, 1 papad, 1 gulab jamun, salad",
         "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/xspxjj3bwz66gc3ual7o",
-        "link": "/Help",
+        "link": "/PureVegMenu",
         "quantity": 1,
     },
     {
@@ -169,7 +169,7 @@ export const item = [
         "Rating": 3.4,
         "Text": "Butter dal khichdi , kachumber salad , 1 papad",
         "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/0444a09ec4e85f6651c4e5e7f4857f81",
-        "link": "/Help",
+        "link": "/PureVegMenu",
         "quantity": 1,
     },
     {
@@ -179,7 +179,7 @@ export const item = [
         "Rating": 3.4,
         "Text": "1 veg sabji, 2 paneer sabji, 5 tawa roti butter, 1 raita, 1 dal, 1 jeera rice, 1gulabjamun, 1 papad, salad",
         "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/wtoj1ug1dgdumrgkukij",
-        "link": "/Help",
+        "link": "/PureVegMenu",
         "quantity": 1,
     },
     {
@@ -189,7 +189,7 @@ export const item = [
         "Rating": 3.4,
         "Text": "2 paneer sabji, 2 veg sabji, 4 tawa paratha, 1 dal , 1 veg pulao , 1 butter milk , 1 gulabjamun , 1 papad , salad",
         "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/pggdjuwidtipb2pxbhxd",
-        "link": "/Help",
+        "link": "/PureVegMenu",
         "quantity": 1,
     },
 
@@ -201,7 +201,7 @@ export const item = [
         "Rating": 3.4,
         "Text": "A flavorful and authentic South Indian delight filled with aromatic spices and served with traditional condiments.",
         "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/pggdjuwidtipb2pxbhxd",
-        "link": "/Help",
+        "link": "/PureVegMenu",
         "quantity": 1,
     },
     {
@@ -211,7 +211,7 @@ export const item = [
         "Rating": 3.4,
         "Text": "A flavorful and crispy South Indian specialty, perfect for those looking for a savory breakfast or snack option.",
         "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/61f881a857e79d42f640e775166fcabc",
-        "link": "/Help",
+        "link": "/PureVegMenu",
         "quantity": 1,
     },
     {
@@ -221,7 +221,7 @@ export const item = [
         "Rating": 3.4,
         "Text": "A delightful, flavorful South Indian delicacy that will satisfy your craving for a cheesy, veggie-filled treat.",
         "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/719f10bccb9f292a20954d483812e996",
-        "link": "/Help",
+        "link": "/PureVegMenu",
         "quantity": 1,
     },
     {
@@ -231,7 +231,7 @@ export const item = [
         "Rating": 3.4,
         "Text": "A flavorful and aromatic South Indian delight with a crispy exterior wrapping a delectable filling.",
         "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/f36d3e4fce447533d99fa46c6474c098",
-        "link": "/Help",
+        "link": "/PureVegMenu",
         "quantity": 1,
     },
     {
@@ -241,7 +241,7 @@ export const item = [
         "Rating": 3.4,
         "Text": "Experience an authentic taste of South India with this flavorful and enticing dosa bursting with a harmonious blend of traditional spices and mouthwatering flavors.",
         "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/9/30/848d0ec3-1cae-4d3f-b660-10bfd6609d8d_b355ecee-bda5-409b-a66c-8993b30d81ea.JPG",
-        "link": "/Help",
+        "link": "/PureVegMenu",
         "quantity": 1,
     },
     {
@@ -251,7 +251,7 @@ export const item = [
         "Rating": 3.4,
         "Text": "Experience the ultimate South Indian delight with a buttery twist that will leave you craving for more.",
         "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/wfeam0y9bzqmonvn4ihr",
-        "link": "/Help",
+        "link": "/PureVegMenu",
         "quantity": 1,
     },
 
@@ -263,7 +263,7 @@ export const item = [
         "Rating": 3.4,
         "Text": "A delectable vegetarian delight nestled between two slices of bread, perfect for a quick, satisfying meal.",
         "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/kg41taveqaaj53lxjydx",
-        "link": "/Help",
+        "link": "/PureVegMenu",
         "quantity": 1,
     },
     {
@@ -273,7 +273,7 @@ export const item = [
         "Rating": 3.4,
         "Text": "A delectable and savory veg sandwich, layered with melted cheese, satisfying all your cravings.",
         "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/mg6drgmpj3b7xbjjmdke",
-        "link": "/Help",
+        "link": "/PureVegMenu",
         "quantity": 1,
     },
     {
@@ -283,7 +283,7 @@ export const item = [
         "Rating": 3.4,
         "Text": "A delectable and savory grilled sandwich filled with gooey melted cheese, perfect for satisfying your hunger and indulging in a burst of flavors.",
         "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/4/9/13c44147-807e-4e15-9f3f-af8e46000da6_0a6a4fdc-0c21-4ce1-b099-c4bacabbe252.JPG",
-        "link": "/Help",
+        "link": "/PureVegMenu",
         "quantity": 1,
     },
 
@@ -295,7 +295,7 @@ export const item = [
         "Rating": 3.4,
         "Text": "A refreshing and flavorful beverage perfect for any time of day, offering a soothing blend of comforting flavors.",
         "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2025/1/20/b8ad5ca0-fc0a-415e-9090-d205cfef628a_7874c8d3-49ef-4919-9e6b-f01ad9959059.JPG",
-        "link": "/Help",
+        "link": "/PureVegMenu",
         "quantity": 1,
     },
     {
@@ -305,7 +305,7 @@ export const item = [
         "Rating": 3.4,
         "Text": "A comforting and invigorating beverage crafted with care, perfect for any time of the day or occasion.",
         "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2025/1/20/f00ed8b3-9535-49d5-95bf-50665bd825c2_69316254-d323-44e8-b265-6cf26c22bc99.JPG",
-        "link": "/Help",
+        "link": "/PureVegMenu",
         "quantity": 1,
     },
     {
@@ -315,7 +315,7 @@ export const item = [
         "Rating": 3.4,
         "Text": "Indulge in a rich and aromatic hot beverage, bursting with exotic flavors and warm spices.",
         "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2025/1/20/b55cadd0-663f-4d94-8b7f-3c6dd2bc149b_53f806da-b42b-427a-98c9-059d7a8dfc45.JPG",
-        "link": "/Help",
+        "link": "/PureVegMenu",
         "quantity": 1,
     },
     {
@@ -325,7 +325,7 @@ export const item = [
         "Rating": 3.4,
         "Text": "Indulge in a rich and aromatic hot beverage, bursting with exotic flavors and warm spices.",
         "img": "",
-        "link": "/Help",
+        "link": "/PureVegMenu",
         "quantity": 1,
     },
     {
@@ -335,7 +335,7 @@ export const item = [
         "Rating": 3.4,
         "Text": "A creamy and refreshing blend that will tantalize your taste buds.",
         "img": "",
-        "link": "/Help",
+        "link": "/PureVegMenu",
         "quantity": 1,
     },
     {
@@ -345,7 +345,7 @@ export const item = [
         "Rating": 3.4,
         "Text": "Indulge in a refreshing blend of coffee and a velvety scoop of ice cream, perfect for satisfying your cravings and cooling down on a warm day.",
         "img": "",
-        "link": "/Help",
+        "link": "/PureVegMenu",
         "quantity": 1,
     },
 
@@ -357,7 +357,7 @@ export const item = [
         "Rating": 3.4,
         "Text": "Savory and rich, this authentic Hyderabadi dish with paneer is a delightful treat for any paneer lover.",
         "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2025/1/13/01562b7b-8bc2-4e99-91b8-f7365c98cbb4_555e56d6-1c44-4438-b8aa-e50a0b40155c.JPG",
-        "link": "/Help",
+        "link": "/PureVegMenu",
         "quantity": 1,
     },
     {
@@ -367,7 +367,7 @@ export const item = [
         "Rating": 3.4,
         "Text": "A delectable and flavorful main course showcasing the creamy and succulent goodness of paneer.",
         "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/fvc8yjrvakz4sexdc5vq",
-        "link": "/Help",
+        "link": "/PureVegMenu",
         "quantity": 1,
     },
     {
@@ -377,7 +377,7 @@ export const item = [
         "Rating": 3.4,
         "Text": "A delectable and flavorful combination of paneer cooked in a rich and aromatic Kolapuri-style gravy.",
         "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/10/1/a15dc255-dbfc-4a02-a6ab-3d77d59c0598_c1b51b29-327f-40af-a0dd-18403bacfc16.JPG",
-        "link": "/Help",
+        "link": "/PureVegMenu",
         "quantity": 1,
     },
     {
@@ -387,7 +387,7 @@ export const item = [
         "Rating": 3.4,
         "Text": "A delightful and flavorful vegetarian delicacy bursting with aromatic spices and tender paneer, perfect for a satisfying main course.",
         "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/9/30/574e7034-c0b1-4e19-ad19-25eb8bfc843e_0360a364-c787-4e60-915c-d56e239afb76.JPG",
-        "link": "/Help",
+        "link": "/PureVegMenu",
         "quantity": 1,
     },
     {
@@ -397,7 +397,7 @@ export const item = [
         "Rating": 3.4,
         "Text": "A delectable fusion of paneer and mushrooms in a rich and flavorful curry.",
         "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2025/1/13/a3f66a03-9375-45b7-b4f8-a67d7ffa5d9e_548650da-4d08-493b-a324-f5b65f6338c5.JPG",
-        "link": "/Help",
+        "link": "/PureVegMenu",
         "quantity": 1,
     },
     {
@@ -407,7 +407,7 @@ export const item = [
         "Rating": 3.4,
         "Text": "A rich and creamy paneer dish, bursting with flavors that will tantalize your taste buds.",
         "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/f7f9c2e673df280e6b04d3eacffac216",
-        "link": "/Help",
+        "link": "/PureVegMenu",
         "quantity": 1,
     },
     {
@@ -417,7 +417,7 @@ export const item = [
         "Rating": 3.4,
         "Text": "A flavorful and aromatic Indian delicacy highlighting the succulent paneer in a mouthwatering gravy.",
         "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/5ca5ac31e633994337a090db3d8da86b",
-        "link": "/Help",
+        "link": "/PureVegMenu",
         "quantity": 1,
     },
     {
@@ -427,7 +427,7 @@ export const item = [
         "Rating": 3.4,
         "Text": "A rich and creamy Indian delicacy showcasing succulent paneer cooked in a delectable, aromatic gravy.",
         "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/mivvmigdvetthjncouzj",
-        "link": "/Help",
+        "link": "/PureVegMenu",
         "quantity": 1,
     },
     {
@@ -437,7 +437,7 @@ export const item = [
         "Rating": 3.4,
         "Text": "A creamy and flavorful paneer main course, delicately prepared with cashews for an irresistible twist.",
         "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/88d7f6e120da8f167971904e0f11e8a5",
-        "link": "/Help",
+        "link": "/PureVegMenu",
         "quantity": 1,
     },
     {
@@ -447,7 +447,7 @@ export const item = [
         "Rating": 3.4,
         "Text": "A delectable and hearty vegetarian dish featuring tender paneer and succulent green peas.",
         "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/9c5c6b6f74d3753fd56ded55d22ac21b",
-        "link": "/Help",
+        "link": "/PureVegMenu",
         "quantity": 1,
     },
 
@@ -459,7 +459,7 @@ export const item = [
         "Rating": 3.4,
         "Text": "A refreshing and creamy delight that perfectly balances sweetness and tanginess, offering a delightful taste of India.",
         "img": "",
-        "link": "/Help",
+        "link": "/PureVegMenu",
         "quantity": 1,
     },
     {
@@ -469,7 +469,7 @@ export const item = [
         "Rating": 3.4,
         "Text": "A delightful and refreshing twist on traditional lassi, this special ice cream creation is a flavorful treat for vegetarians.",
         "img": "",
-        "link": "/Help",
+        "link": "/PureVegMenu",
         "quantity": 1,
     },
 
@@ -481,7 +481,7 @@ export const item = [
         "Rating": 3.4,
         "Text": "Aromatic and flavorsome rice dish seasoned with fragrant spices.",
         "img": "",
-        "link": "/Help",
+        "link": "/PureVegMenu",
         "quantity": 1,
     },
     {
@@ -491,7 +491,7 @@ export const item = [
         "Rating": 3.4,
         "Text": "A flavorful and aromatic rice dish packed with a delightful medley of vegetables.",
         "img": "",
-        "link": "/Help",
+        "link": "/PureVegMenu",
         "quantity": 1,
     },
     {
@@ -501,7 +501,7 @@ export const item = [
         "Rating": 3.4,
         "Text": "Delight in a delectable, flavorful blend of fluffy rice cooked to perfection.",
         "img": "",
-        "link": "/Help",
+        "link": "/PureVegMenu",
         "quantity": 1,
     },
     {
@@ -511,7 +511,7 @@ export const item = [
         "Rating": 3.4,
         "Text": "Creamy and flavorful rice delicacy that offers a soothing and satisfying experience.",
         "img": "",
-        "link": "/Help",
+        "link": "/PureVegMenu",
         "quantity": 1,
     },
 
@@ -523,7 +523,7 @@ export const item = [
         "Rating": 3.4,
         "Text": "A delectable Indian flatbread cooked on a hot griddle, perfect to accompany your favorite curry or enjoy on its own.",
         "img": "",
-        "link": "/Help",
+        "link": "/PureVegMenu",
         "quantity": 1,
     },
     {
@@ -533,7 +533,7 @@ export const item = [
         "Rating": 3.4,
         "Text": "Flavorful and indulgent, this buttery Roti is expertly cooked on a tawa to give it a deliciously crisp and soft texture.",
         "img": "",
-        "link": "/Help",
+        "link": "/PureVegMenu",
         "quantity": 1,
     },
 ];
@@ -572,7 +572,7 @@ export const item = [
 //         "Price": 100,
 //         "Rating": 3.4,
 //         "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_112,h_112,c_fill/u42hphveygmhpdnhlk0s",
-//         "link": "/ParathaMenu",
+//         "link": "/PureVegMenuthaMenu",
 //         "quantity": 1,
 //     },
 //     {
@@ -581,7 +581,7 @@ export const item = [
 //         "Price": 100,
 //         "Rating": 3.4,
 //         "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_112,h_112,c_fill/pe8nhrseavtl5fjfcyye",
-//         "link": "/ParathaMenu",
+//         "link": "/PureVegMenuthaMenu",
 //         "quantity": 1,
 //     },
 //     {
