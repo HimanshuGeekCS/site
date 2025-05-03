@@ -1,5 +1,8 @@
-export const AllRecommended = [
+export const item = [
+
+    // Recommended 
     {
+        "Type": "Recommended",
         "Name": "Chicken Roast",
         "Price": 250,
         "Rating": 3.4,
@@ -9,6 +12,7 @@ export const AllRecommended = [
         "quantity": 1,
     },
     {
+        "Type": "Recommended",
         "Name": "Mutton Roast",
         "Price": 250,
         "Rating": 3.4,
@@ -18,6 +22,7 @@ export const AllRecommended = [
         "quantity": 1,
     },
     {
+        "Type": "Recommended",
         "Name": "Egg Bhurji",
         "Price": 250,
         "Rating": 3.4,
@@ -27,6 +32,7 @@ export const AllRecommended = [
         "quantity": 1,
     },
     {
+        "Type": "Recommended",
         "Name": "Paneer Masala",
         "Price": 250,
         "Rating": 3.4,
@@ -36,6 +42,7 @@ export const AllRecommended = [
         "quantity": 1,
     },
     {
+        "Type": "Recommended",
         "Name": "Butter Paneer",
         "Price": 250,
         "Rating": 3.4,
@@ -45,6 +52,7 @@ export const AllRecommended = [
         "quantity": 1,
     },
     {
+        "Type": "Recommended",
         "Name": "Chicken Kadai",
         "Price": 250,
         "Rating": 3.4,
@@ -54,6 +62,7 @@ export const AllRecommended = [
         "quantity": 1,
     },
     {
+        "Type": "Recommended",
         "Name": "Chicken Korma",
         "Price": 250,
         "Rating": 3.4,
@@ -63,6 +72,7 @@ export const AllRecommended = [
         "quantity": 1,
     },
     {
+        "Type": "Recommended",
         "Name": "Chicken Masala",
         "Price": 250,
         "Rating": 3.4,
@@ -72,6 +82,7 @@ export const AllRecommended = [
         "quantity": 1,
     },
     {
+        "Type": "Recommended",
         "Name": "Chicken Mughlai",
         "Price": 250,
         "Rating": 3.4,
@@ -81,6 +92,7 @@ export const AllRecommended = [
         "quantity": 1,
     },
     {
+        "Type": "Recommended",
         "Name": "Butter Chicken",
         "Price": 250,
         "Rating": 3.4,
@@ -90,6 +102,7 @@ export const AllRecommended = [
         "quantity": 1,
     },
     {
+        "Type": "Recommended",
         "Name": "Dal Fry",
         "Price": 250,
         "Rating": 3.4,
@@ -99,6 +112,7 @@ export const AllRecommended = [
         "quantity": 1,
     },
     {
+        "Type": "Recommended",
         "Name": "Dal Tadka",
         "Price": 250,
         "Rating": 3.4,
@@ -108,6 +122,7 @@ export const AllRecommended = [
         "quantity": 1,
     },
     {
+        "Type": "Recommended",
         "Name": "Egg Curry",
         "Price": 250,
         "Rating": 3.4,
@@ -117,6 +132,7 @@ export const AllRecommended = [
         "quantity": 1,
     },
     {
+        "Type": "Recommended",
         "Name": "Egg Masala",
         "Price": 250,
         "Rating": 3.4,
@@ -126,6 +142,7 @@ export const AllRecommended = [
         "quantity": 1,
     },
     {
+        "Type": "Recommended",
         "Name": "Mutton Korma",
         "Price": 250,
         "Rating": 3.4,
@@ -135,6 +152,7 @@ export const AllRecommended = [
         "quantity": 1,
     },
     {
+        "Type": "Recommended",
         "Name": "Mutton Curry",
         "Price": 250,
         "Rating": 3.4,
@@ -144,6 +162,7 @@ export const AllRecommended = [
         "quantity": 1,
     },
     {
+        "Type": "Recommended",
         "Name": "Keema Kaleji",
         "Price": 250,
         "Rating": 3.4,
@@ -153,6 +172,7 @@ export const AllRecommended = [
         "quantity": 1,
     },
     {
+        "Type": "Recommended",
         "Name": "Jeera Rice",
         "Price": 250,
         "Rating": 3.4,
@@ -162,6 +182,7 @@ export const AllRecommended = [
         "quantity": 1,
     },
     {
+        "Type": "Recommended",
         "Name": "Chicken Biryani",
         "Price": 250,
         "Rating": 3.4,
@@ -169,11 +190,11 @@ export const AllRecommended = [
         "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/lln3zxpll8pshaeqrgr9",
         "link": "/Help",
         "quantity": 1,
-    }
-];
+    },
 
-export const AllStarters = [
+    // Starters
     {
+        "Type": "Starters",
         "Name": "Dal Chawal",
         "Price": 250,
         "Rating": 3.4,
@@ -183,6 +204,7 @@ export const AllStarters = [
         "quantity": 1,
     },
     {
+        "Type": "Starters",
         "Name": "Chicken Roast",
         "Price": 250,
         "Rating": 3.4,
@@ -192,6 +214,7 @@ export const AllStarters = [
         "quantity": 1,
     },
     {
+        "Type": "Starters",
         "Name": "Mutton Roast",
         "Price": 250,
         "Rating": 3.4,
@@ -201,6 +224,7 @@ export const AllStarters = [
         "quantity": 1,
     },
     {
+        "Type": "Starters",
         "Name": "Chicken Chilli",
         "Price": 250,
         "Rating": 3.4,
@@ -210,6 +234,7 @@ export const AllStarters = [
         "quantity": 1,
     },
     {
+        "Type": "Starters",
         "Name": "Keema",
         "Price": 250,
         "Rating": 3.4,
@@ -219,6 +244,7 @@ export const AllStarters = [
         "quantity": 1,
     },
     {
+        "Type": "Starters",
         "Name": "Egg Bhurji ",
         "Price": 250,
         "Rating": 3.4,
@@ -227,11 +253,10 @@ export const AllStarters = [
         "link": "/Help",
         "quantity": 1,
     },
-]
 
-
-export const AllVeg = [
+    // Veg 
     {
+        "Type": "Veg",
         "Name": "Paneer Masala",
         "Price": 250,
         "Rating": 3.4,
@@ -241,6 +266,7 @@ export const AllVeg = [
         "quantity": 1,
     },
     {
+        "Type": "Veg",
         "Name": "Butter Paneer",
         "Price": 250,
         "Rating": 3.4,
@@ -249,10 +275,10 @@ export const AllVeg = [
         "link": "/Help",
         "quantity": 1,
     },
-]
 
-export const AllChickenMainCourse = [
+    // ChickenMainCourse 
     {
+        "Type": "ChickenMainCourse",
         "Name": "Chicken Kadai",
         "Price": 250,
         "Rating": 3.4,
@@ -262,6 +288,7 @@ export const AllChickenMainCourse = [
         "quantity": 1,
     },
     {
+        "Type": "ChickenMainCourse",
         "Name": "Chicken Hyderabadi",
         "Price": 250,
         "Rating": 3.4,
@@ -271,6 +298,7 @@ export const AllChickenMainCourse = [
         "quantity": 1,
     },
     {
+        "Type": "ChickenMainCourse",
         "Name": "Chicken Curry",
         "Price": 250,
         "Rating": 3.4,
@@ -280,6 +308,7 @@ export const AllChickenMainCourse = [
         "quantity": 1,
     },
     {
+        "Type": "ChickenMainCourse",
         "Name": "Chicken Korma",
         "Price": 250,
         "Rating": 3.4,
@@ -289,6 +318,7 @@ export const AllChickenMainCourse = [
         "quantity": 1,
     },
     {
+        "Type": "ChickenMainCourse",
         "Name": "Chicken Masala",
         "Price": 250,
         "Rating": 3.4,
@@ -298,6 +328,7 @@ export const AllChickenMainCourse = [
         "quantity": 1,
     },
     {
+        "Type": "ChickenMainCourse",
         "Name": "Chicken Bhuna",
         "Price": 250,
         "Rating": 3.4,
@@ -307,6 +338,7 @@ export const AllChickenMainCourse = [
         "quantity": 1,
     },
     {
+        "Type": "ChickenMainCourse",
         "Name": "Chicken Mughlai",
         "Price": 250,
         "Rating": 3.4,
@@ -316,6 +348,7 @@ export const AllChickenMainCourse = [
         "quantity": 1,
     },
     {
+        "Type": "ChickenMainCourse",
         "Name": "Butter Chicken",
         "Price": 250,
         "Rating": 3.4,
@@ -324,10 +357,10 @@ export const AllChickenMainCourse = [
         "link": "/Help",
         "quantity": 1,
     },
-]
 
-export const AllDal = [
+    // Dal 
     {
+        "Type": "Dal",
         "Name": "Dal Fry",
         "Price": 250,
         "Rating": 3.4,
@@ -337,6 +370,7 @@ export const AllDal = [
         "quantity": 1,
     },
     {
+        "Type": "Dal",
         "Name": "Dal Tadka",
         "Price": 250,
         "Rating": 3.4,
@@ -346,6 +380,7 @@ export const AllDal = [
         "quantity": 1,
     },
     {
+        "Type": "Dal",
         "Name": "Dal Special",
         "Price": 250,
         "Rating": 3.4,
@@ -354,10 +389,10 @@ export const AllDal = [
         "link": "/Help",
         "quantity": 1,
     },
-]
 
-export const AllEggMainCourse = [
+    // EggMainCourse 
     {
+        "Type": "EggMainCourse",
         "Name": "Egg Curry",
         "Price": 250,
         "Rating": 3.4,
@@ -367,6 +402,7 @@ export const AllEggMainCourse = [
         "quantity": 1,
     },
     {
+        "Type": "EggMainCourse",
         "Name": "Egg Korma",
         "Price": 250,
         "Rating": 3.4,
@@ -376,6 +412,7 @@ export const AllEggMainCourse = [
         "quantity": 1,
     },
     {
+        "Type": "EggMainCourse",
         "Name": "Egg Masala",
         "Price": 250,
         "Rating": 3.4,
@@ -384,10 +421,10 @@ export const AllEggMainCourse = [
         "link": "/Help",
         "quantity": 1,
     },
-]
 
-export const AllMuttonMainCourse = [
+    // MuttonMainCourse
     {
+        "Type": "MuttonMainCourse",
         "Name": "Mutton Korma",
         "Price": 250,
         "Rating": 3.4,
@@ -397,6 +434,7 @@ export const AllMuttonMainCourse = [
         "quantity": 1,
     },
     {
+        "Type": "MuttonMainCourse",
         "Name": "Mutton Rogan Juice",
         "Price": 250,
         "Rating": 3.4,
@@ -406,6 +444,7 @@ export const AllMuttonMainCourse = [
         "quantity": 1,
     },
     {
+        "Type": "MuttonMainCourse",
         "Name": "Mutton Curry",
         "Price": 250,
         "Rating": 3.4,
@@ -415,6 +454,7 @@ export const AllMuttonMainCourse = [
         "quantity": 1,
     },
     {
+        "Type": "MuttonMainCourse",
         "Name": "Mutton Mughlai",
         "Price": 250,
         "Rating": 3.4,
@@ -424,6 +464,7 @@ export const AllMuttonMainCourse = [
         "quantity": 1,
     },
     {
+        "Type": "MuttonMainCourse",
         "Name": "Keema Kaleji",
         "Price": 250,
         "Rating": 3.4,
@@ -433,6 +474,7 @@ export const AllMuttonMainCourse = [
         "quantity": 1,
     },
     {
+        "Type": "MuttonMainCourse",
         "Name": "Mutton Masala",
         "Price": 250,
         "Rating": 3.4,
@@ -441,12 +483,10 @@ export const AllMuttonMainCourse = [
         "link": "/Help",
         "quantity": 1,
     },
-]
 
-
-
-export const AllMustTry = [
+    // MustTry
     {
+        "Type": "MustTry",
         "Name": "Chicken Kadai+Jeera Rice+5 Tandoori Roti",
         "Price": 250,
         "Rating": 3.4,
@@ -455,6 +495,7 @@ export const AllMustTry = [
         "quantity": 1,
     },
     {
+        "Type": "MustTry",
         "Name": "Chicken Chilli+Jeera Rice+6 Tandoori Roti",
         "Price": 250,
         "Rating": 3.4,
@@ -463,6 +504,7 @@ export const AllMustTry = [
         "quantity": 1,
     },
     {
+        "Type": "MustTry",
         "Name": "Chicken Mughlai+Jeera Rice+7 Tandoori Roti",
         "Price": 250,
         "Rating": 3.4,
@@ -471,6 +513,7 @@ export const AllMustTry = [
         "quantity": 1,
     },
     {
+        "Type": "MustTry",
         "Name": "Butter Chicken+Jeera Rice+10 Tandoori Roti",
         "Price": 250,
         "Rating": 3.4,
@@ -479,6 +522,7 @@ export const AllMustTry = [
         "quantity": 1,
     },
     {
+        "Type": "MustTry",
         "Name": "Egg Bhurji Curry+Jeera Rice+14 Tandoori Roti",
         "Price": 250,
         "Rating": 3.4,
@@ -487,6 +531,7 @@ export const AllMustTry = [
         "quantity": 1,
     },
     {
+        "Type": "MustTry",
         "Name": "Keema Kaleji+Jeera Rice++5 Tandoori Roti",
         "Price": 250,
         "Rating": 3.4,
@@ -495,6 +540,7 @@ export const AllMustTry = [
         "quantity": 1,
     },
     {
+        "Type": "MustTry",
         "Name": "Keema Kaleji Bhuna+Jeera Rice++5 Tandoori Roti",
         "Price": 250,
         "Rating": 3.4,
@@ -503,6 +549,7 @@ export const AllMustTry = [
         "quantity": 1,
     },
     {
+        "Type": "MustTry",
         "Name": "Keema Kaleji+Jeera Rice++5 Tandoori Roti",
         "Price": 250,
         "Rating": 3.4,
@@ -511,6 +558,7 @@ export const AllMustTry = [
         "quantity": 1,
     },
     {
+        "Type": "MustTry",
         "Name": "Keema Kaleji Bhuna+Jeera Rice++5 Tandoori Roti",
         "Price": 250,
         "Rating": 3.4,
@@ -518,9 +566,10 @@ export const AllMustTry = [
         "link": "/Help",
         "quantity": 1,
     },
-]
-export const AllRiceAndBiryanis = [
+
+    // RiceAndBiryanis
     {
+        "Type": "RiceAndBiryanis",
         "Name": "Plain Rice",
         "Price": 250,
         "Rating": 3.4,
@@ -530,6 +579,7 @@ export const AllRiceAndBiryanis = [
         "quantity": 1,
     },
     {
+        "Type": "RiceAndBiryanis",
         "Name": "Jeera Rice",
         "Price": 250,
         "Rating": 3.4,
@@ -539,6 +589,7 @@ export const AllRiceAndBiryanis = [
         "quantity": 1,
     },
     {
+        "Type": "RiceAndBiryanis",
         "Name": "Chicken Biryani",
         "Price": 250,
         "Rating": 3.4,
@@ -548,6 +599,7 @@ export const AllRiceAndBiryanis = [
         "quantity": 1,
     },
     {
+        "Type": "RiceAndBiryanis",
         "Name": "Mutton Biryani",
         "Price": 250,
         "Rating": 3.4,
@@ -556,9 +608,9 @@ export const AllRiceAndBiryanis = [
         "link": "/Help",
         "quantity": 1,
     },
-]
-export const AllRoti = [
+    // Roti
     {
+        "Type": "Roti",
         "Name": "Tawa Roti",
         "Price": 250,
         "Rating": 3.4,
@@ -567,9 +619,9 @@ export const AllRoti = [
         "link": "/Help",
         "quantity": 1,
     },
-]
-export const AllQuickBites = [
+    // QuickBites
     {
+        "Type": "QuickBites",
         "Name": "Egg Omelette",
         "Price": 250,
         "Rating": 3.4,
@@ -578,5 +630,5 @@ export const AllQuickBites = [
         "link": "/Help",
         "quantity": 1,
     },
-]
+];
 

@@ -22,7 +22,7 @@ import { GulabJamun } from './Pages/Home/CarouselOne/GulabJamun';
 import { CholeBhature } from './Pages/Home/CarouselOne/CholeBhature';
 import { SouthIndian } from './Pages/Home/CarouselOne/SouthIndian';
 import { Noodles } from './Pages/Home/CarouselOne/Noodles';
-import { AdilHotel } from './Pages/Home/ResWithOnlineFood/Adil Hotel/AdilHotel';
+import { AdilHotel } from './Pages/Home/ResWithOnlineFood/AdilHotel';
 
 
 import { Explogin } from './Pages/loginForm/Explogin';

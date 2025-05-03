@@ -6,11 +6,13 @@ import { AllHomeData } from "../HotalName";
 
 import Nav from 'react-bootstrap/Nav';
 import { Link } from "react-router";
+import { item } from "./Home/CarouselOne/Menu";
 // import { AllParatha } from "./Home/CarouselOne/Menu";
 
 export const Search = () => {
     const [search, setSearch] = useState("");
 
+    // this function for HotalName 
     function filteredTasks() {
         // Filter tasks based on search input
         // The includes() method returns true if a string contains a specified string.Otherwise it returns false.
@@ -19,9 +21,10 @@ export const Search = () => {
         return AllHomeData.filter((e) => (e.HotalName.toLowerCase().includes(search)));
 
     }
+     // this function for purevegMenu
     function filteredTasks2() {
         // Filter tasks based on search input
-        return AllParatha.filter((e) => (e.Name.toLowerCase().includes(search)));
+        return item.filter((e) => (e.Name.toLowerCase().includes(search)));
     }
 
     return (
@@ -103,6 +106,8 @@ export const Search = () => {
                                 })}
                             </Col> : null}
                     </Row>
+
+
 
                     <Row className="py-5 my-5">
 
