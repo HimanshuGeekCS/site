@@ -11,11 +11,18 @@ import { Link, NavLink } from "react-router";
 import { LuPlus } from "react-icons/lu";
 import { FaMinus } from "react-icons/fa6";
 
+import { toast, ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
+
 
 export const Cart = () => {
 
     const [items, setItems] = useState([]);
     const [totalPrice, setTotalPrice] = useState(0);
+
+
+    const [Data, SetData] = useState("");
 
 
     useEffect(() => {
@@ -66,8 +73,8 @@ export const Cart = () => {
     // };
 
     const decreaseQty = (index) => {
-        const updatedItems = items.map((item, i) => {
-            if (i === index) {
+        const updatedItems = items.map((item, ind) => {
+            if (ind === index) {
                 return { ...item, quantity: item.quantity - 1 };
             }
             return item;
@@ -75,6 +82,21 @@ export const Cart = () => {
         setItems(updatedItems);
         localStorage.setItem('item', JSON.stringify(updatedItems));
     };
+
+
+    // // const data = () => {
+    //     const a = JSON.parse(localStorage.getItem('UserInput'))
+    //     SetData(a)
+    // // }
+
+    useEffect(() => {
+        const a = JSON.parse(localStorage.getItem('UserInput'))
+        SetData(a)
+    }, [])
+
+    console.log(Data);
+
+
 
 
 
@@ -109,11 +131,26 @@ export const Cart = () => {
         localStorage.setItem('item', JSON.stringify(data));
     }
 
+    // dataSubmit
+    const dataSubmit = () => {
+        localStorage.setItem('submit', JSON.stringify(items));  //item set in localstorage when user submit data
+        localStorage.removeItem('item')   //item remove form localstorage
+        setItems([]);
+        
+        toast.success(" Your order has been successfully placed!");
+    };
+
+
+
+
+
 
     return (
         <>
             <Container fluid>
                 <Container className="pb-5 mb-5">
+                    <ToastContainer />
+
                     <Row className=" justify-content-center">
                         {items.length > 0 ?
                             <Col lg="10" className="py-5">
@@ -244,14 +281,30 @@ export const Cart = () => {
                                         </tbody>
                                     </table>
                                 </Col>
-                                <Col lg="6"></Col>
-                                <Col lg="6" className="px-5">
+                                {/* <Col lg="6"></Col> */}
+                                {/* <Col lg="6" className="px-5 ms-auto">
                                     <div className=" text-center" >
                                         <Nav.Link as={Link} to="/Login" className="text-decoration-none" >
                                             <button className="btn btn-danger w-100">Proceed to checkout</button>
                                         </Nav.Link>
                                     </div>
-                                </Col>
+                                </Col> */}
+                                {
+                                    !Data ? <Col lg="6" className="px-5 ms-auto">
+                                        <div className=" text-center" >
+                                            <Nav.Link as={Link} to="/Login" className="text-decoration-none" >
+                                                <button className="btn btn-danger w-100">Proceed to checkout</button>
+                                            </Nav.Link>
+                                        </div>
+                                    </Col> :
+                                        <Col lg="6" className="px-5 ms-auto">
+                                            <div className=" text-center" >
+                                                <div className="text-decoration-none" onClick={dataSubmit} >
+                                                    <button className="btn btn-danger w-100">Proceed to checkout</button>
+                                                </div>
+                                            </div>
+                                        </Col>
+                                }
                             </Row>
                             : null
                     }
